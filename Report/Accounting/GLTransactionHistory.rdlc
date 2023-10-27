@@ -85,10 +85,14 @@
           <DataField>balance_side</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="journal_name">
+          <DataField>journal_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>GLTransactionHistory</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\GLTransactionHistory.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\GLTransactionHistory.xsd</rd:SchemaPath>
         <rd:TableName>GLHistDataset</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -517,7 +521,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIF(IsNothing(Fields!customer_name.Value),Fields!vendor_name.Value,Fields!customer_name.Value)</Value>
+                                  <Value>=IIF(IsNothing(Fields!customer_name.Value),Fields!journal_name.Value,Fields!customer_name.Value)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                   </Style>

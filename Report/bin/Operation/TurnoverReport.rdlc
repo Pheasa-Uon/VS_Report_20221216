@@ -7,6 +7,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>92b74f25-6565-49fb-a98a-eff8968ef519</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -2954,12 +2955,14 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Principle</Value>
+                                        <Value>Principal</Value>
                                         <Style>
+                                          <FontStyle>Normal</FontStyle>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
-                                          <Color>White</Color>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#ffffff</Color>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -2996,7 +2999,18 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Principle Paid</Value>
+                                        <Value>Principal </Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#ffffff</Color>
+                                        </Style>
+                                      </TextRun>
+                                      <TextRun>
+                                        <Value>Paid</Value>
                                         <Style>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontSize>9pt</FontSize>
@@ -3300,12 +3314,14 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Principle</Value>
+                                        <Value>Principal</Value>
                                         <Style>
+                                          <FontStyle>Normal</FontStyle>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
-                                          <Color>White</Color>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#ffffff</Color>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -3345,7 +3361,18 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Principle Paid</Value>
+                                        <Value>Principal </Value>
+                                        <Style>
+                                          <FontStyle>Normal</FontStyle>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#ffffff</Color>
+                                        </Style>
+                                      </TextRun>
+                                      <TextRun>
+                                        <Value>Paid</Value>
                                         <Style>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontSize>9pt</FontSize>
@@ -3515,12 +3542,14 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Principle</Value>
+                                        <Value>Principal</Value>
                                         <Style>
+                                          <FontStyle>Normal</FontStyle>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
-                                          <Color>White</Color>
+                                          <TextDecoration>None</TextDecoration>
+                                          <Color>#ffffff</Color>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -3543,6 +3572,7 @@
                                   <PaddingBottom>2pt</PaddingBottom>
                                 </Style>
                               </Textbox>
+                              <rd:Selected>true</rd:Selected>
                             </CellContents>
                           </TablixHeader>
                         </TablixMember>
