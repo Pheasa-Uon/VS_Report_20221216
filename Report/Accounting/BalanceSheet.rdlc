@@ -1005,6 +1005,9 @@
                       </SortExpressions>
                       <TablixMembers>
                         <TablixMember>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!account_type.Value = "99.Net Income" or Fields!account_type.Value = "8 .EQUITY",TRUE,FALSE)</Hidden>
+                          </Visibility>
                           <KeepWithGroup>After</KeepWithGroup>
                         </TablixMember>
                         <TablixMember>
@@ -1034,6 +1037,9 @@
                           </TablixMembers>
                         </TablixMember>
                         <TablixMember>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!account_type.Value = "99.Net Income" or Fields!account_type.Value = "8 .EQUITY",TRUE,FALSE)</Hidden>
+                          </Visibility>
                           <KeepWithGroup>Before</KeepWithGroup>
                         </TablixMember>
                       </TablixMembers>

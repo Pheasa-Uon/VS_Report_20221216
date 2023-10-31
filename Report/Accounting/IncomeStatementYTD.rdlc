@@ -45,7 +45,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementYTD</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementYTD.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementYTD.xsd</rd:SchemaPath>
         <rd:TableName>PS_INC</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -3007,7 +3007,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
