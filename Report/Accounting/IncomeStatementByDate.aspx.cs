@@ -26,7 +26,7 @@ namespace Report.Accounting
                 dtpToDate.Text = date;
             }
         }
-        
+
         private void GenerateReport(DataTable PS_INCTRAN_DT, DataTable PS_GOSTRAN_DT, DataTable PS_TTGOSTRAN_DT, DataTable PS_EXPTRAN_DT, DataTable PS_TTNDITRAN_DT, DataTable PS_OTHRETRAN_DT, DataTable PS_PLTRAN_DT)
         {
             ReportParameterCollection reportParameters = new ReportParameterCollection();

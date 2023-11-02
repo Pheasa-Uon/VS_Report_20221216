@@ -12,22 +12,26 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="PS_INCTRAN">
+    <DataSet Name="PS_INCEXPTRANBYDATE">
       <Query>
         <DataSourceName>IncomeStatementByDate</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
+        <Field Name="tt">
+          <DataField>tt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="glm">
           <DataField>glm</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="gl">
-          <DataField>gl</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="glnm">
           <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="gl_name">
@@ -45,212 +49,8 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_INCTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_GOSTRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="glm">
-          <DataField>glm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl">
-          <DataField>gl</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="glnm">
-          <DataField>glnm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl_name">
-          <DataField>gl_name</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="acc_class">
-          <DataField>acc_class</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ac_amt">
-          <DataField>ac_amt</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_INCTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_TTGOSTRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="total_i">
-          <DataField>total_i</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="total_e">
-          <DataField>total_e</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ttgostran">
-          <DataField>ttgostran</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_TTGOSTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_EXPTRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="glm">
-          <DataField>glm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl">
-          <DataField>gl</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="glnm">
-          <DataField>glnm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl_name">
-          <DataField>gl_name</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="acc_class">
-          <DataField>acc_class</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ac_amt">
-          <DataField>ac_amt</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_INCTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_TTNDITRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="total_i">
-          <DataField>total_i</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="total_e">
-          <DataField>total_e</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ttgostran">
-          <DataField>ttgostran</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_TTGOSTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_OTHRETRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="glm">
-          <DataField>glm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl">
-          <DataField>gl</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="glnm">
-          <DataField>glnm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="gl_name">
-          <DataField>gl_name</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="acc_class">
-          <DataField>acc_class</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ac_amt">
-          <DataField>ac_amt</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_INCTRAN</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="PS_PLTRAN">
-      <Query>
-        <DataSourceName>IncomeStatementByDate</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-      </Query>
-      <Fields>
-        <Field Name="total_i">
-          <DataField>total_i</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="total_e">
-          <DataField>total_e</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="p_l">
-          <DataField>p_l</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>PS_PLTRAN</rd:TableName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>IncomeStatementByDateDS</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
         <rd:TableAdapterName />
@@ -284,8 +84,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>0.28819in</Top>
-            <Left>0.28238in</Left>
+            <Top>1.16061in</Top>
+            <Left>2.15738in</Left>
             <Height>0.2743in</Height>
             <Width>5.55529in</Width>
             <Style>
@@ -316,8 +116,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.84251in</Top>
-            <Left>7.18906in</Left>
+            <Top>1.71493in</Top>
+            <Left>9.06406in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>1</ZIndex>
@@ -353,8 +153,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>0.84251in</Top>
-            <Left>8.16476in</Left>
+            <Top>1.71493in</Top>
+            <Left>10.03976in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>2</ZIndex>
@@ -384,7 +184,7 @@
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                       <TextDecoration>None</TextDecoration>
-                      <Color>="ff2d351e"</Color>
+                      <Color>#233e99</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -392,7 +192,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Left>0.28238in</Left>
+            <Top>0.87242in</Top>
+            <Left>2.15738in</Left>
             <Height>0.2743in</Height>
             <Width>5.55529in</Width>
             <ZIndex>3</ZIndex>
@@ -424,8 +225,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.41889in</Top>
-            <Left>7.18906in</Left>
+            <Top>2.29131in</Top>
+            <Left>9.06406in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>4</ZIndex>
@@ -461,8 +262,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.41889in</Top>
-            <Left>8.16476in</Left>
+            <Top>2.29131in</Top>
+            <Left>10.03976in</Left>
             <Height>0.2743in</Height>
             <Width>2.21508in</Width>
             <ZIndex>5</ZIndex>
@@ -495,8 +296,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.1307in</Top>
-            <Left>7.18906in</Left>
+            <Top>2.00312in</Top>
+            <Left>9.06406in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>6</ZIndex>
@@ -532,8 +333,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.1307in</Top>
-            <Left>8.16476in</Left>
+            <Top>2.00312in</Top>
+            <Left>10.03976in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>7</ZIndex>
@@ -550,8 +351,8 @@
             </Style>
           </Textbox>
           <Line Name="Line3">
-            <Top>10.08285in</Top>
-            <Left>8.39459in</Left>
+            <Top>10.95528in</Top>
+            <Left>10.26959in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>8</ZIndex>
@@ -578,8 +379,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>8.39459in</Left>
+            <Top>10.95528in</Top>
+            <Left>10.26959in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>9</ZIndex>
@@ -610,8 +411,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.55432in</Top>
-            <Left>7.18906in</Left>
+            <Top>1.42674in</Top>
+            <Left>9.06406in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>10</ZIndex>
@@ -647,8 +448,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>0.55432in</Top>
-            <Left>8.16476in</Left>
+            <Top>1.42674in</Top>
+            <Left>10.03976in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>11</ZIndex>
@@ -707,7 +508,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -745,7 +546,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1158,7 +959,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1198,7 +999,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1239,7 +1040,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1307,8 +1108,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_INCTRAN</DataSetName>
-            <Top>1.73164in</Top>
-            <Left>0.25045in</Left>
+            <Top>2.60406in</Top>
+            <Left>2.12545in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>12</ZIndex>
@@ -1361,7 +1162,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1399,7 +1200,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1812,7 +1613,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1852,7 +1653,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1893,7 +1694,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1961,8 +1762,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_GOSTRAN</DataSetName>
-            <Top>3.16046in</Top>
-            <Left>0.25in</Left>
+            <Top>4.03288in</Top>
+            <Left>2.125in</Left>
             <Height>1.35938in</Height>
             <Width>10.12984in</Width>
             <ZIndex>13</ZIndex>
@@ -2023,7 +1824,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2061,7 +1862,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2103,7 +1904,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2146,7 +1947,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2176,8 +1977,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTGOSTRAN</DataSetName>
-            <Top>4.65366in</Top>
-            <Left>0.25045in</Left>
+            <Top>5.52608in</Top>
+            <Left>2.12545in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>14</ZIndex>
@@ -2230,7 +2031,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2268,7 +2069,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2681,7 +2482,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2721,7 +2522,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2762,7 +2563,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2830,8 +2631,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_EXPTRAN</DataSetName>
-            <Top>5.03127in</Top>
-            <Left>0.25045in</Left>
+            <Top>5.90369in</Top>
+            <Left>2.12545in</Left>
             <Height>1.35938in</Height>
             <Width>10.12939in</Width>
             <ZIndex>15</ZIndex>
@@ -2892,7 +2693,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2930,7 +2731,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2972,7 +2773,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3015,7 +2816,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3045,8 +2846,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTNDITRAN</DataSetName>
-            <Top>6.46008in</Top>
-            <Left>0.25045in</Left>
+            <Top>7.3325in</Top>
+            <Left>2.12545in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>16</ZIndex>
@@ -3099,7 +2900,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3137,7 +2938,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <BackgroundColor>#233e99</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3550,7 +3351,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3590,7 +3391,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3631,7 +3432,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3699,8 +3500,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_OTHRETRAN</DataSetName>
-            <Top>6.77954in</Top>
-            <Left>0.25045in</Left>
+            <Top>7.65196in</Top>
+            <Left>2.12545in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>17</ZIndex>
@@ -3761,7 +3562,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3799,7 +3600,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3841,7 +3642,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3884,7 +3685,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3914,8 +3715,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_PLTRAN</DataSetName>
-            <Top>8.20836in</Top>
-            <Left>0.25045in</Left>
+            <Top>9.08078in</Top>
+            <Left>2.12545in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>18</ZIndex>
@@ -3926,8 +3727,8 @@
             </Style>
           </Tablix>
           <Line Name="Line4">
-            <Top>10.08285in</Top>
-            <Left>4.40685in</Left>
+            <Top>10.95528in</Top>
+            <Left>6.28185in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>19</ZIndex>
@@ -3954,8 +3755,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>4.40685in</Left>
+            <Top>10.95528in</Top>
+            <Left>6.28185in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>20</ZIndex>
@@ -3986,8 +3787,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>0.28238in</Left>
+            <Top>10.95528in</Top>
+            <Left>2.15738in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>21</ZIndex>
@@ -4002,8 +3803,8 @@
             </Style>
           </Textbox>
           <Line Name="Line5">
-            <Top>10.08285in</Top>
-            <Left>0.28238in</Left>
+            <Top>10.95528in</Top>
+            <Left>2.15738in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>22</ZIndex>
@@ -4014,14 +3815,14 @@
             </Style>
           </Line>
         </ReportItems>
-        <Height>10.45785in</Height>
+        <Height>12.0777in</Height>
         <Style>
           <Border>
             <Style>Solid</Style>
           </Border>
         </Style>
       </Body>
-      <Width>10.68454in</Width>
+      <Width>12.47204in</Width>
       <Page>
         <PageHeight>8.27in</PageHeight>
         <PageWidth>11.69in</PageWidth>
