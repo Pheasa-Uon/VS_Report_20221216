@@ -12,26 +12,22 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="PS_INCEXPTRANBYDATE">
+    <DataSet Name="PS_INCTRAN">
       <Query>
         <DataSourceName>IncomeStatementByDate</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="tt">
-          <DataField>tt</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="glm">
           <DataField>glm</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="glnm">
-          <DataField>glnm</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="gl">
           <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="gl_name">
@@ -50,7 +46,211 @@
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
         <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
-        <rd:TableName>IncomeStatementByDateDS</rd:TableName>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_GOSTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="glm">
+          <DataField>glm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl_name">
+          <DataField>gl_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="acc_class">
+          <DataField>acc_class</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ac_amt">
+          <DataField>ac_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_TTGOSTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="total_i">
+          <DataField>total_i</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="total_e">
+          <DataField>total_e</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ttgostran">
+          <DataField>ttgostran</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_TTGOSTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_EXPTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="glm">
+          <DataField>glm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl_name">
+          <DataField>gl_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="acc_class">
+          <DataField>acc_class</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ac_amt">
+          <DataField>ac_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_TTNDITRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="total_i">
+          <DataField>total_i</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="total_e">
+          <DataField>total_e</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ttgostran">
+          <DataField>ttgostran</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_TTGOSTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_OTHRETRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="glm">
+          <DataField>glm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl_name">
+          <DataField>gl_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="acc_class">
+          <DataField>acc_class</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ac_amt">
+          <DataField>ac_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_PLTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="total_i">
+          <DataField>total_i</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="total_e">
+          <DataField>total_e</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="p_l">
+          <DataField>p_l</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_PLTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
         <rd:TableAdapterName />
@@ -84,8 +284,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>1.16061in</Top>
-            <Left>2.15738in</Left>
+            <Top>0.36061in</Top>
+            <Left>0.06267in</Left>
             <Height>0.2743in</Height>
             <Width>5.55529in</Width>
             <Style>
@@ -116,8 +316,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.71493in</Top>
-            <Left>9.06406in</Left>
+            <Top>0.91493in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>1</ZIndex>
@@ -153,8 +353,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.71493in</Top>
-            <Left>10.03976in</Left>
+            <Top>0.91493in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>2</ZIndex>
@@ -192,8 +392,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.87242in</Top>
-            <Left>2.15738in</Left>
+            <Top>0.07242in</Top>
+            <Left>0.06267in</Left>
             <Height>0.2743in</Height>
             <Width>5.55529in</Width>
             <ZIndex>3</ZIndex>
@@ -225,8 +425,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>2.29131in</Top>
-            <Left>9.06406in</Left>
+            <Top>1.49131in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>4</ZIndex>
@@ -262,8 +462,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>2.29131in</Top>
-            <Left>10.03976in</Left>
+            <Top>1.49131in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.21508in</Width>
             <ZIndex>5</ZIndex>
@@ -296,8 +496,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>2.00312in</Top>
-            <Left>9.06406in</Left>
+            <Top>1.20312in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>6</ZIndex>
@@ -333,8 +533,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>2.00312in</Top>
-            <Left>10.03976in</Left>
+            <Top>1.20312in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>7</ZIndex>
@@ -351,8 +551,8 @@
             </Style>
           </Textbox>
           <Line Name="Line3">
-            <Top>10.95528in</Top>
-            <Left>10.26959in</Left>
+            <Top>10.15528in</Top>
+            <Left>8.17488in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>8</ZIndex>
@@ -379,8 +579,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.95528in</Top>
-            <Left>10.26959in</Left>
+            <Top>10.15528in</Top>
+            <Left>8.17488in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>9</ZIndex>
@@ -411,8 +611,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.42674in</Top>
-            <Left>9.06406in</Left>
+            <Top>0.62674in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>10</ZIndex>
@@ -448,8 +648,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.42674in</Top>
-            <Left>10.03976in</Left>
+            <Top>0.62674in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>11</ZIndex>
@@ -1108,8 +1308,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_INCTRAN</DataSetName>
-            <Top>2.60406in</Top>
-            <Left>2.12545in</Left>
+            <Top>1.80406in</Top>
+            <Left>0.03074in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>12</ZIndex>
@@ -1762,8 +1962,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_GOSTRAN</DataSetName>
-            <Top>4.03288in</Top>
-            <Left>2.125in</Left>
+            <Top>3.23288in</Top>
+            <Left>0.03029in</Left>
             <Height>1.35938in</Height>
             <Width>10.12984in</Width>
             <ZIndex>13</ZIndex>
@@ -1977,8 +2177,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTGOSTRAN</DataSetName>
-            <Top>5.52608in</Top>
-            <Left>2.12545in</Left>
+            <Top>4.72608in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>14</ZIndex>
@@ -2631,8 +2831,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_EXPTRAN</DataSetName>
-            <Top>5.90369in</Top>
-            <Left>2.12545in</Left>
+            <Top>5.10369in</Top>
+            <Left>0.03074in</Left>
             <Height>1.35938in</Height>
             <Width>10.12939in</Width>
             <ZIndex>15</ZIndex>
@@ -2846,8 +3046,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTNDITRAN</DataSetName>
-            <Top>7.3325in</Top>
-            <Left>2.12545in</Left>
+            <Top>6.5325in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>16</ZIndex>
@@ -3500,8 +3700,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_OTHRETRAN</DataSetName>
-            <Top>7.65196in</Top>
-            <Left>2.12545in</Left>
+            <Top>6.85196in</Top>
+            <Left>0.03074in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>17</ZIndex>
@@ -3715,8 +3915,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_PLTRAN</DataSetName>
-            <Top>9.08078in</Top>
-            <Left>2.12545in</Left>
+            <Top>8.28078in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>18</ZIndex>
@@ -3727,8 +3927,8 @@
             </Style>
           </Tablix>
           <Line Name="Line4">
-            <Top>10.95528in</Top>
-            <Left>6.28185in</Left>
+            <Top>10.15528in</Top>
+            <Left>4.18714in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>19</ZIndex>
@@ -3755,8 +3955,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.95528in</Top>
-            <Left>6.28185in</Left>
+            <Top>10.15528in</Top>
+            <Left>4.18714in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>20</ZIndex>
@@ -3787,8 +3987,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.95528in</Top>
-            <Left>2.15738in</Left>
+            <Top>10.15528in</Top>
+            <Left>0.06267in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>21</ZIndex>
@@ -3803,8 +4003,8 @@
             </Style>
           </Textbox>
           <Line Name="Line5">
-            <Top>10.95528in</Top>
-            <Left>2.15738in</Left>
+            <Top>10.15528in</Top>
+            <Left>0.06267in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>22</ZIndex>
@@ -3822,7 +4022,7 @@
           </Border>
         </Style>
       </Body>
-      <Width>12.47204in</Width>
+      <Width>10.26371in</Width>
       <Page>
         <PageHeight>8.27in</PageHeight>
         <PageWidth>11.69in</PageWidth>
