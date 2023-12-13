@@ -6072,7 +6072,7 @@
                           <FontFamily>Century Gothic</FontFamily>
                           <FontSize>12pt</FontSize>
                           <FontWeight>Bold</FontWeight>
-                          <Color>Red</Color>
+                          <Color>#e2be7d</Color>
                         </Style>
                       </TextRun>
                     </TextRuns>
@@ -6105,7 +6105,7 @@
                   <Border>
                     <Style>None</Style>
                   </Border>
-                  <BackgroundColor>#977ccd</BackgroundColor>
+                  <BackgroundColor>#2d351e</BackgroundColor>
                 </Style>
               </Rectangle>
               <Rectangle Name="Rectangle4">
@@ -6118,7 +6118,7 @@
                   <Border>
                     <Style>None</Style>
                   </Border>
-                  <BackgroundColor>#977ccd</BackgroundColor>
+                  <BackgroundColor>#2d351e</BackgroundColor>
                 </Style>
               </Rectangle>
             </ReportItems>

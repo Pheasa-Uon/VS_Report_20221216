@@ -3791,17 +3791,16 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value> NET PROFIT (LOSS) FOR THE PERIOD:</Value>
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontFamily>Century Gothic</FontFamily>
-                                    <FontSize>12pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -4090,6 +4089,9 @@
                   <TablixMembers>
                     <TablixMember />
                   </TablixMembers>
+                  <Visibility>
+                    <Hidden>=IIF(Fields!ac_amt.Value = 0,true,false)</Hidden>
+                  </Visibility>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
@@ -4324,6 +4326,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -4421,6 +4424,9 @@
                   <TablixMembers>
                     <TablixMember />
                   </TablixMembers>
+                  <Visibility>
+                    <Hidden>=IIF(Fields!ac_amt.Value = 0,true,false)</Hidden>
+                  </Visibility>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
