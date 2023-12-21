@@ -35,6 +35,7 @@ namespace Report.Accounting
             reportParameters.Add(new ReportParameter("ToDate", DateTime.ParseExact(dtpToDate.Text, format, null).ToString("dd-MMM-yyyy")));
 
             var ds = new ReportDataSource("IncomeStatementByMonthDS", dt);
+            
 
             DataHelper.generateAccountingReport(ReportViewer1, "IncomeStatementByMonth", reportParameters, ds);
         }

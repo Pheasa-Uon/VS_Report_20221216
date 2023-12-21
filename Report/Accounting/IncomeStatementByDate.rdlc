@@ -2715,7 +2715,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -4158,6 +4157,9 @@
                   <TablixMembers>
                     <TablixMember />
                   </TablixMembers>
+                  <Visibility>
+                    <Hidden>=IIF(Fields!ac_amt.Value = 0,true,false)</Hidden>
+                  </Visibility>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
