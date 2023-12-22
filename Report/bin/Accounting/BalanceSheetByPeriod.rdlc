@@ -340,7 +340,7 @@
                                   </Style>
                                 </TextRun>
                                 <TextRun>
-                                  <Value>=Fields!glm.Value  &amp; IIF(Fields!glnm.Value &lt;&gt; "","000 - " &amp; Fields!glnm.Value,"")</Value>
+                                  <Value>=IIF(Fields!gl.Value = "Net Income","Retained Earning",Fields!gl.Value)  &amp; IIF(Fields!glnm.Value &lt;&gt; "","000 - " &amp; Fields!glnm.Value,"")</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -460,7 +460,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value),"--"," - ") &amp; Fields!gl_name.Value</Value>
+                                  <Value>=IIF(Fields!gl.Value = "Net Income","Retained Earning",Fields!gl.Value) &amp; IIF(IsNothing(Fields!gl_name.Value),"--"," - ") &amp; Fields!gl_name.Value</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>9pt</FontSize>
