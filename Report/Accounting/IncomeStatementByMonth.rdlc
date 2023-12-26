@@ -70,6 +70,14 @@
           <DataField>previous_amt</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="amt_ytd_cur">
+          <DataField>amt_ytd_cur</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="amt_ytd_pre">
+          <DataField>amt_ytd_pre</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByMonth</rd:DataSetName>
@@ -665,7 +673,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!amt_ytd.Value)</Value>
+                                  <Value>=IIF(Fields!amt_ytd_cur.Value &lt;&gt; 0,Fields!amt_ytd_cur.Value,Fields!amt_ytd_pre.Value)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Normal</FontWeight>

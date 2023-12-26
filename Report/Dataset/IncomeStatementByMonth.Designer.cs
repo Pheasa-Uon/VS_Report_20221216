@@ -305,6 +305,10 @@ namespace Report.Dataset {
             
             private global::System.Data.DataColumn columnprevious_amt;
             
+            private global::System.Data.DataColumn columnamt_ytd_cur;
+            
+            private global::System.Data.DataColumn columnamt_ytd_pre;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public IncomeStatementByMonthDSDataTable() {
@@ -444,6 +448,22 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn amt_ytd_curColumn {
+                get {
+                    return this.columnamt_ytd_cur;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn amt_ytd_preColumn {
+                get {
+                    return this.columnamt_ytd_pre;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -479,7 +499,7 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public IncomeStatementByMonthDSRow AddIncomeStatementByMonthDSRow(string tt, string glm, string glnm, string gl, string gl_name, string acc_class, string ac_amt, string mon, string year, string ac_amt_exchange, string amt_ytd, string current_amt, string previous_amt) {
+            public IncomeStatementByMonthDSRow AddIncomeStatementByMonthDSRow(string tt, string glm, string glnm, string gl, string gl_name, string acc_class, string ac_amt, string mon, string year, string ac_amt_exchange, string amt_ytd, string current_amt, string previous_amt, string amt_ytd_cur, string amt_ytd_pre) {
                 IncomeStatementByMonthDSRow rowIncomeStatementByMonthDSRow = ((IncomeStatementByMonthDSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         tt,
@@ -494,7 +514,9 @@ namespace Report.Dataset {
                         ac_amt_exchange,
                         amt_ytd,
                         current_amt,
-                        previous_amt};
+                        previous_amt,
+                        amt_ytd_cur,
+                        amt_ytd_pre};
                 rowIncomeStatementByMonthDSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowIncomeStatementByMonthDSRow);
                 return rowIncomeStatementByMonthDSRow;
@@ -530,6 +552,8 @@ namespace Report.Dataset {
                 this.columnamt_ytd = base.Columns["amt_ytd"];
                 this.columncurrent_amt = base.Columns["current_amt"];
                 this.columnprevious_amt = base.Columns["previous_amt"];
+                this.columnamt_ytd_cur = base.Columns["amt_ytd_cur"];
+                this.columnamt_ytd_pre = base.Columns["amt_ytd_pre"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -561,6 +585,10 @@ namespace Report.Dataset {
                 base.Columns.Add(this.columncurrent_amt);
                 this.columnprevious_amt = new global::System.Data.DataColumn("previous_amt", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnprevious_amt);
+                this.columnamt_ytd_cur = new global::System.Data.DataColumn("amt_ytd_cur", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnamt_ytd_cur);
+                this.columnamt_ytd_pre = new global::System.Data.DataColumn("amt_ytd_pre", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnamt_ytd_pre);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -914,6 +942,40 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string amt_ytd_cur {
+                get {
+                    try {
+                        return ((string)(this[this.tableIncomeStatementByMonthDS.amt_ytd_curColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'amt_ytd_cur\' in table \'IncomeStatementByMonthDS\' is DBNull." +
+                                "", e);
+                    }
+                }
+                set {
+                    this[this.tableIncomeStatementByMonthDS.amt_ytd_curColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string amt_ytd_pre {
+                get {
+                    try {
+                        return ((string)(this[this.tableIncomeStatementByMonthDS.amt_ytd_preColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'amt_ytd_pre\' in table \'IncomeStatementByMonthDS\' is DBNull." +
+                                "", e);
+                    }
+                }
+                set {
+                    this[this.tableIncomeStatementByMonthDS.amt_ytd_preColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsttNull() {
                 return this.IsNull(this.tableIncomeStatementByMonthDS.ttColumn);
             }
@@ -1066,6 +1128,30 @@ namespace Report.Dataset {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void Setprevious_amtNull() {
                 this[this.tableIncomeStatementByMonthDS.previous_amtColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isamt_ytd_curNull() {
+                return this.IsNull(this.tableIncomeStatementByMonthDS.amt_ytd_curColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setamt_ytd_curNull() {
+                this[this.tableIncomeStatementByMonthDS.amt_ytd_curColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isamt_ytd_preNull() {
+                return this.IsNull(this.tableIncomeStatementByMonthDS.amt_ytd_preColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setamt_ytd_preNull() {
+                this[this.tableIncomeStatementByMonthDS.amt_ytd_preColumn] = global::System.Convert.DBNull;
             }
         }
         
