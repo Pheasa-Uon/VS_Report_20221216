@@ -624,19 +624,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / IIF(Fields!previous_amt.Value = 0,1 * 100,sum(Fields!previous_amt.Value)) ) * 100))</Value>
+                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / IIF(Fields!previous_amt.Value = 0,1 * 100,sum(Fields!previous_amt.Value)))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Normal</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
-                                  </Style>
-                                </TextRun>
-                                <TextRun>
-                                  <Value> %</Value>
-                                  <Style>
-                                    <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Normal</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                    <Format>''#,#0.00%;''(#,#0.00%);'-'</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -748,19 +740,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) /sum(Fields!previous_amt.Value)) * 100</Value>
+                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / IIF(Fields!previous_amt.Value = 0,1 * 100,sum(Fields!previous_amt.Value)))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
-                                  </Style>
-                                </TextRun>
-                                <TextRun>
-                                  <Value> %</Value>
-                                  <Style>
-                                    <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                    <Format>''#,#0.00%;''(#,#0.00%);'-'</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -873,11 +857,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) /sum(Fields!previous_amt.Value)) * 100</Value>
+                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / IIF(Fields!previous_amt.Value = 0,1 * 100,sum(Fields!previous_amt.Value)))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                    <Format> ''#,#0.00%;''(#,#0.00%);'-'</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
