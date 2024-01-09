@@ -1187,6 +1187,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GLTransactionHistory.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dataset\IncomeStatementByMonth.cs">
+      <DependentUpon>IncomeStatementByMonth.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dataset\IncomeStatementByMonth.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

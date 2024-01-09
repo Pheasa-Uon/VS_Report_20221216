@@ -54,14 +54,6 @@
           <DataField>year</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="ac_amt_exchange">
-          <DataField>ac_amt_exchange</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="amt_ytd">
-          <DataField>amt_ytd</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="current_amt">
           <DataField>current_amt</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -70,12 +62,8 @@
           <DataField>previous_amt</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="amt_ytd_cur">
-          <DataField>amt_ytd_cur</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="amt_ytd_pre">
-          <DataField>amt_ytd_pre</DataField>
+        <Field Name="amt_ytd">
+          <DataField>amt_ytd</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
@@ -555,7 +543,7 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox4">
+                        <Textbox Name="gl">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -571,7 +559,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <rd:DefaultName>gl</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -600,7 +588,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ac_amt.Value)</Value>
+                                  <Value>=IIF(IsNothing(Fields!ac_amt.Value),0,Sum(Fields!ac_amt.Value))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
@@ -636,7 +624,15 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) /sum(Fields!previous_amt.Value)) * 100</Value>
+                                  <Value>=((((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / IIF(Fields!previous_amt.Value = 0,1 * 100,sum(Fields!previous_amt.Value)) ) * 100))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Normal</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value> %</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Normal</FontWeight>
@@ -673,7 +669,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIF(Fields!amt_ytd_cur.Value &lt;&gt; 0,Fields!amt_ytd_cur.Value,Fields!amt_ytd_pre.Value)</Value>
+                                  <Value>=Fields!amt_ytd.Value</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Normal</FontWeight>
@@ -759,6 +755,14 @@
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value> %</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Right</TextAlign>
@@ -789,7 +793,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!amt_ytd.Value)</Value>
+                                  <Value>=SUM(MAX(Fields!amt_ytd.Value,"gl_name"),"glm")</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
@@ -907,7 +911,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIF(MonthName(MAX(Fields!mon.Value), true)=MID(MonthName(Month(Parameters!ToDate.Value),False),1,3),sum(Fields!amt_ytd.Value),0)</Value>
+                                  <Value>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", SUM(MAX(Fields!amt_ytd.Value,"tt")),SUM(MAX(Fields!amt_ytd.Value,"gl_name")))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
@@ -1888,7 +1892,7 @@
           </Tablix>
           <Line Name="Line3">
             <Top>4.35255in</Top>
-            <Left>5.44465in</Left>
+            <Left>6.19465in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>3</ZIndex>
@@ -1916,7 +1920,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.35255in</Top>
-            <Left>5.44465in</Left>
+            <Left>6.19465in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>4</ZIndex>
@@ -1932,7 +1936,7 @@
           </Textbox>
           <Line Name="Line6">
             <Top>4.35255in</Top>
-            <Left>2.7973in</Left>
+            <Left>3.1723in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>5</ZIndex>
@@ -1960,7 +1964,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.35255in</Top>
-            <Left>2.7973in</Left>
+            <Left>3.1723in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>6</ZIndex>
