@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -7,7 +7,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>c4d80c76-927b-437e-a2a5-ca5daaedf13d</rd:DataSourceID>
+      <rd:DataSourceID>3e50db74-19f5-4182-bae0-5b48d3d51373</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -100,6 +100,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>0.2743in</Top>
+            <Left>0.07758in</Left>
             <Height>0.2743in</Height>
             <Width>5.65292in</Width>
             <Style>
@@ -135,7 +136,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Left>0.00001in</Left>
+            <Left>0.07759in</Left>
             <Height>0.2743in</Height>
             <Width>5.65291in</Width>
             <ZIndex>1</ZIndex>
@@ -152,7 +153,7 @@
           </Textbox>
           <Line Name="Line3">
             <Top>4.85255in</Top>
-            <Left>6.30011in</Left>
+            <Left>6.37769in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>2</ZIndex>
@@ -202,7 +203,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.85255in</Top>
-            <Left>6.2949in</Left>
+            <Left>6.37248in</Left>
             <Height>0.58333in</Height>
             <Width>1.63542in</Width>
             <ZIndex>3</ZIndex>
@@ -218,7 +219,7 @@
           </Textbox>
           <Line Name="Line6">
             <Top>4.85255in</Top>
-            <Left>3.02776in</Left>
+            <Left>3.10534in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>4</ZIndex>
@@ -268,7 +269,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.85255in</Top>
-            <Left>3.02776in</Left>
+            <Left>3.10534in</Left>
             <Height>0.58333in</Height>
             <Width>1.63542in</Width>
             <ZIndex>5</ZIndex>
@@ -284,6 +285,7 @@
           </Textbox>
           <Line Name="Line7">
             <Top>4.85255in</Top>
+            <Left>0.07758in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>6</ZIndex>
@@ -333,6 +335,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.85255in</Top>
+            <Left>0.07758in</Left>
             <Height>0.58333in</Height>
             <Width>1.63542in</Width>
             <ZIndex>7</ZIndex>
@@ -2126,7 +2129,7 @@
             </TablixRowHierarchy>
             <DataSetName>BalanceSheetByMonthDS</DataSetName>
             <Top>0.60857in</Top>
-            <Left>0.01121in</Left>
+            <Left>0.08879in</Left>
             <Height>3.33333in</Height>
             <Width>6.36983in</Width>
             <ZIndex>8</ZIndex>
@@ -2139,10 +2142,15 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>5.43588in</Height>
-        <Style />
+        <Height>7.25in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+            <Width>0.5pt</Width>
+          </Border>
+        </Style>
       </Body>
-      <Width>7.93032in</Width>
+      <Width>8.01311in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
@@ -2173,6 +2181,8 @@
     </ReportParameter>
     <ReportParameter Name="ToDate">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
   </ReportParameters>
@@ -2205,5 +2215,5 @@
     </GridLayoutDefinition>
   </ReportParametersLayout>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>32cb22b6-604d-4a12-976b-8df286ef1e8f</rd:ReportID>
+  <rd:ReportID>3f5efa49-fa95-4c49-92de-743f726f6883</rd:ReportID>
 </Report>
