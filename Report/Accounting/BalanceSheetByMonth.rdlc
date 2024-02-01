@@ -152,7 +152,7 @@
           </Textbox>
           <Line Name="Line3">
             <Top>4.85255in</Top>
-            <Left>6.30011in</Left>
+            <Left>6.2in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>2</ZIndex>
@@ -202,7 +202,7 @@
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
             <Top>4.85255in</Top>
-            <Left>6.2949in</Left>
+            <Left>6.2in</Left>
             <Height>0.58333in</Height>
             <Width>1.63542in</Width>
             <ZIndex>3</ZIndex>
@@ -853,7 +853,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / sum(Fields!previous_amt.Value))</Value>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Normal</FontWeight>
@@ -932,7 +934,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / sum(Fields!previous_amt.Value))</Value>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
@@ -1018,8 +1022,8 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
-    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / SUM(Fields!previous_amt.Value),
-    Nothing)</Value>
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
@@ -1110,7 +1114,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=((sum(Fields!current_amt.Value) - sum(Fields!previous_amt.Value)) / sum(Fields!previous_amt.Value))</Value>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
