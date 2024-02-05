@@ -1,27 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
-  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="IncomeStatementYTD">
+    <DataSource Name="BalanceSheetByMonth">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>8083486f-a685-4a79-be29-92e615c5872b</rd:DataSourceID>
+      <rd:DataSourceID>c4d80c76-927b-437e-a2a5-ca5daaedf13d</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="IncomeStatementYTDDS">
+    <DataSet Name="BalanceSheetByMonthDS">
       <Query>
-        <DataSourceName>IncomeStatementYTD</DataSourceName>
+        <DataSourceName>BalanceSheetByMonth</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="tt">
-          <DataField>tt</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="glm">
           <DataField>glm</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -46,11 +41,31 @@
           <DataField>ac_amt</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="mon">
+          <DataField>mon</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="year">
+          <DataField>year</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="current_amt">
+          <DataField>current_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="previous_amt">
+          <DataField>previous_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="account_type">
+          <DataField>account_type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
-        <rd:DataSetName>IncomeStatementYTD</rd:DataSetName>
-        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementYTD.xsd</rd:SchemaPath>
-        <rd:TableName>IncomeStatementYTDDS</rd:TableName>
+        <rd:DataSetName>BalanceSheetByMonth</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\BalanceSheetByMonth.xsd</rd:SchemaPath>
+        <rd:TableName>BalanceSheetByMonthDS</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
         <rd:TableAdapterName />
@@ -68,7 +83,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>INCOME STATEMENT (YTD)</Value>
+                    <Value>BALANCE SHEET BY MONTH</Value>
                     <Style>
                       <FontStyle>Normal</FontStyle>
                       <FontFamily>Century Gothic</FontFamily>
@@ -84,10 +99,9 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>0.3351in</Top>
-            <Left>0.13424in</Left>
+            <Top>0.2743in</Top>
             <Height>0.2743in</Height>
-            <Width>5.68859in</Width>
+            <Width>5.65292in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -113,7 +127,7 @@
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                       <TextDecoration>None</TextDecoration>
-                      <Color>#2d351e</Color>
+                      <Color>="ff2d351e"</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -121,10 +135,9 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.0608in</Top>
-            <Left>0.13424in</Left>
+            <Left>0.00001in</Left>
             <Height>0.2743in</Height>
-            <Width>5.68859in</Width>
+            <Width>5.65291in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -138,10 +151,10 @@
             </Style>
           </Textbox>
           <Line Name="Line3">
-            <Top>4.11524in</Top>
-            <Left>5.64581in</Left>
+            <Top>4.85255in</Top>
+            <Left>6.2in</Left>
             <Height>0in</Height>
-            <Width>1.91012in</Width>
+            <Width>1.63021in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -149,7 +162,7 @@
               </Border>
             </Style>
           </Line>
-          <Textbox Name="Textbox9">
+          <Textbox Name="Textbox11">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
@@ -164,12 +177,34 @@
                 </TextRuns>
                 <Style />
               </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Date:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>4.11524in</Top>
-            <Left>5.64581in</Left>
-            <Height>0.25in</Height>
-            <Width>1.91533in</Width>
+            <Top>4.85255in</Top>
+            <Left>6.2in</Left>
+            <Height>0.58333in</Height>
+            <Width>1.63542in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -181,11 +216,11 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Line Name="Line4">
-            <Top>4.11524in</Top>
-            <Left>2.85858in</Left>
+          <Line Name="Line6">
+            <Top>4.85255in</Top>
+            <Left>3.02776in</Left>
             <Height>0in</Height>
-            <Width>2.02188in</Width>
+            <Width>1.63021in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -208,12 +243,34 @@
                 </TextRuns>
                 <Style />
               </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Date:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>4.11524in</Top>
-            <Left>2.85858in</Left>
-            <Height>0.25in</Height>
-            <Width>2.02709in</Width>
+            <Top>4.85255in</Top>
+            <Left>3.02776in</Left>
+            <Height>0.58333in</Height>
+            <Width>1.63542in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -225,6 +282,17 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Line Name="Line7">
+            <Top>4.85255in</Top>
+            <Height>0in</Height>
+            <Width>1.63021in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
           <Textbox Name="Textbox49">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -240,13 +308,34 @@
                 </TextRuns>
                 <Style />
               </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Date:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>4.11524in</Top>
-            <Left>0.13469in</Left>
-            <Height>0.25in</Height>
-            <Width>1.90209in</Width>
-            <ZIndex>6</ZIndex>
+            <Top>4.85255in</Top>
+            <Height>0.58333in</Height>
+            <Width>1.63542in</Width>
+            <ZIndex>7</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -257,18 +346,6 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Line Name="Line5">
-            <Top>4.11524in</Top>
-            <Left>0.13469in</Left>
-            <Height>0in</Height>
-            <Width>1.89688in</Width>
-            <ZIndex>7</ZIndex>
-            <Style>
-              <Border>
-                <Style>Solid</Style>
-              </Border>
-            </Style>
-          </Line>
           <Tablix Name="Tablix1">
             <TablixCorner>
               <TablixCornerRows>
@@ -294,6 +371,42 @@
                           </Paragraph>
                         </Paragraphs>
                         <rd:DefaultName>Textbox53</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Style>None</Style>
+                          </Border>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixCornerCell>
+                </TablixCornerRow>
+                <TablixCornerRow>
+                  <TablixCornerCell>
+                    <CellContents>
+                      <Textbox Name="Textbox50">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value />
+                                <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox50</rd:DefaultName>
                         <Style>
                           <Border>
                             <Style>None</Style>
@@ -380,18 +493,52 @@
                     </CellContents>
                   </TablixCornerCell>
                 </TablixCornerRow>
+                <TablixCornerRow>
+                  <TablixCornerCell>
+                    <CellContents>
+                      <Textbox Name="Textbox23">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Month / Year</Value>
+                                <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox23</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixCornerCell>
+                </TablixCornerRow>
               </TablixCornerRows>
             </TablixCorner>
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>0.2993in</Width>
+                  <Width>1.16878in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.24167in</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>1.73646in</Width>
+                  <Width>1.31979in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -400,7 +547,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox4">
+                        <Textbox Name="Textbox57">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -419,12 +566,32 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <rd:DefaultName>Textbox57</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
+                              <Color>#2d351e</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
                             <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -437,18 +604,17 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox14">
+                        <Textbox Name="Textbox3">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Balance</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -457,12 +623,32 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
+                              <Color>#2d351e</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>#2d351e</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
                             <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
@@ -471,10 +657,8 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
@@ -482,7 +666,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox5">
+                        <Textbox Name="Textbox441">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -498,12 +682,13 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <rd:DefaultName>Textbox441</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -515,7 +700,7 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox15">
+                        <Textbox Name="Textbox443">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -531,12 +716,13 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox15</rd:DefaultName>
+                          <rd:DefaultName>Textbox443</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -544,10 +730,8 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
@@ -555,26 +739,23 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox6">
+                        <Textbox Name="Textbox39">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>="$"</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style>
-                                <TextAlign>Right</TextAlign>
-                              </Style>
+                              <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -589,6 +770,44 @@
                         </Textbox>
                       </CellContents>
                     </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="gl">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>gl</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="ac_amt">
@@ -598,10 +817,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!ac_amt.Value</Value>
+                                  <Value>=IIF(IsNothing(Fields!ac_amt.Value),0,Sum(Fields!ac_amt.Value))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -624,137 +842,52 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="amt_ytd">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Normal</FontWeight>
+                                    <Format>''#,#0.00%;''(#,#0.00%);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>amt_ytd</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
                   <Height>0.25in</Height>
                   <TablixCells>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox8">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>="$"</Value>
-                                  <Style>
-                                    <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Right</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox8</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="ac_amt1">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Sum(Fields!ac_amt.Value)</Value>
-                                  <Style>
-                                    <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
-                                    <Format>#,0.00;(#,0.00);'-'</Format>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Right</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>ac_amt1</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                        <ColSpan>2</ColSpan>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell />
-                  </TablixCells>
-                </TablixRow>
-                <TablixRow>
-                  <Height>0.26042in</Height>
-                  <TablixCells>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox10">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>="$"</Value>
-                                  <Style>
-                                    <FontFamily>Century Gothic</FontFamily>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Right</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox10</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <BottomBorder>
-                              <Color>White</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <BackgroundColor>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", "#e2be7d", "LightGrey")</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="ac_amt2">
@@ -764,7 +897,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ac_amt.Value)</Value>
+                                  <Value>=IIF(IsNothing(Sum(Fields!ac_amt.Value)),"-",Sum(Fields!ac_amt.Value))</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
@@ -783,12 +916,6 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BottomBorder>
-                              <Color>White</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <BackgroundColor>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", "#e2be7d", "LightGrey")</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -796,10 +923,326 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="amt_ytd1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>''#,#0.00%;''(#,#0.00%);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>amt_ytd1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox436">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(IsNothing(Sum(Fields!ac_amt.Value)),"-",Sum(Fields!ac_amt.Value))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox436</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox438">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format> ''#,#0.00%;''(#,#0.00%);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox438</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox25">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(IsNothing(Sum(Fields!ac_amt.Value)),"-",Sum(Fields!ac_amt.Value))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox25</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox28">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIf(SUM(Fields!previous_amt.Value) &lt;&gt; 0,
+    (SUM(Fields!current_amt.Value) - SUM(Fields!previous_amt.Value)) / IIf(SUM(Fields!previous_amt.Value) = 0, 1, SUM(Fields!previous_amt.Value)),
+    0)</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format> ''#,#0.00%;''(#,#0.00%);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox28</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="ac_amt1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!ac_amt.Value) / 2</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                    <Color>#e2be7d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>ac_amt1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="glm1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=(((sum(Fields!current_amt.Value) / 2) - (sum(Fields!previous_amt.Value)/2)) / (sum(Fields!previous_amt.Value)/2))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format> ''#,#0.00%;''(#,#0.00%);'-'</Format>
+                                    <Color>#e2be7d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>glm1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <BackgroundColor>#2d351e</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
               </TablixRows>
@@ -810,123 +1253,7 @@
                   <TablixHeader>
                     <Size>0.25in</Size>
                     <CellContents>
-                      <Textbox Name="Textbox1">
-                        <CanGrow>true</CanGrow>
-                        <KeepTogether>true</KeepTogether>
-                        <Paragraphs>
-                          <Paragraph>
-                            <TextRuns>
-                              <TextRun>
-                                <Value />
-                                <Style>
-                                  <FontFamily>Century Gothic</FontFamily>
-                                </Style>
-                              </TextRun>
-                            </TextRuns>
-                            <Style>
-                              <TextAlign>Left</TextAlign>
-                            </Style>
-                          </Paragraph>
-                        </Paragraphs>
-                        <rd:DefaultName>Textbox1</rd:DefaultName>
-                        <Style>
-                          <Border>
-                            <Style>None</Style>
-                          </Border>
-                          <VerticalAlign>Middle</VerticalAlign>
-                          <PaddingLeft>2pt</PaddingLeft>
-                          <PaddingRight>2pt</PaddingRight>
-                          <PaddingTop>2pt</PaddingTop>
-                          <PaddingBottom>2pt</PaddingBottom>
-                        </Style>
-                      </Textbox>
-                    </CellContents>
-                  </TablixHeader>
-                  <TablixMembers>
-                    <TablixMember>
-                      <TablixHeader>
-                        <Size>0.25in</Size>
-                        <CellContents>
-                          <Textbox Name="Textbox2">
-                            <CanGrow>true</CanGrow>
-                            <KeepTogether>true</KeepTogether>
-                            <Paragraphs>
-                              <Paragraph>
-                                <TextRuns>
-                                  <TextRun>
-                                    <Value />
-                                    <Style>
-                                      <FontFamily>Century Gothic</FontFamily>
-                                    </Style>
-                                  </TextRun>
-                                </TextRuns>
-                                <Style>
-                                  <TextAlign>Left</TextAlign>
-                                </Style>
-                              </Paragraph>
-                            </Paragraphs>
-                            <rd:DefaultName>Textbox2</rd:DefaultName>
-                            <Style>
-                              <Border>
-                                <Style>None</Style>
-                              </Border>
-                              <VerticalAlign>Middle</VerticalAlign>
-                              <PaddingLeft>2pt</PaddingLeft>
-                              <PaddingRight>2pt</PaddingRight>
-                              <PaddingTop>2pt</PaddingTop>
-                              <PaddingBottom>2pt</PaddingBottom>
-                            </Style>
-                          </Textbox>
-                        </CellContents>
-                      </TablixHeader>
-                      <TablixMembers>
-                        <TablixMember>
-                          <TablixHeader>
-                            <Size>0.25in</Size>
-                            <CellContents>
-                              <Textbox Name="Textbox3">
-                                <CanGrow>true</CanGrow>
-                                <KeepTogether>true</KeepTogether>
-                                <Paragraphs>
-                                  <Paragraph>
-                                    <TextRuns>
-                                      <TextRun>
-                                        <Value />
-                                        <Style>
-                                          <FontFamily>Century Gothic</FontFamily>
-                                          <FontSize>9pt</FontSize>
-                                        </Style>
-                                      </TextRun>
-                                    </TextRuns>
-                                    <Style>
-                                      <TextAlign>Left</TextAlign>
-                                    </Style>
-                                  </Paragraph>
-                                </Paragraphs>
-                                <rd:DefaultName>Textbox3</rd:DefaultName>
-                                <Style>
-                                  <Border>
-                                    <Style>None</Style>
-                                  </Border>
-                                  <VerticalAlign>Middle</VerticalAlign>
-                                  <PaddingLeft>2pt</PaddingLeft>
-                                  <PaddingRight>2pt</PaddingRight>
-                                  <PaddingTop>2pt</PaddingTop>
-                                  <PaddingBottom>2pt</PaddingBottom>
-                                </Style>
-                              </Textbox>
-                            </CellContents>
-                          </TablixHeader>
-                        </TablixMember>
-                      </TablixMembers>
-                    </TablixMember>
-                  </TablixMembers>
-                </TablixMember>
-                <TablixMember>
-                  <TablixHeader>
-                    <Size>0.25in</Size>
-                    <CellContents>
-                      <Textbox Name="Textbox34">
+                      <Textbox Name="Textbox78">
                         <CanGrow>true</CanGrow>
                         <KeepTogether>true</KeepTogether>
                         <Paragraphs>
@@ -940,12 +1267,11 @@
                               </TextRun>
                             </TextRuns>
                             <Style>
-                              <TextAlign>Left</TextAlign>
+                              <TextAlign>Right</TextAlign>
                             </Style>
                           </Paragraph>
                         </Paragraphs>
-                        <rd:DefaultName>Textbox25</rd:DefaultName>
-                        <ZIndex>8</ZIndex>
+                        <rd:DefaultName>Textbox78</rd:DefaultName>
                         <Style>
                           <Border>
                             <Style>None</Style>
@@ -964,26 +1290,25 @@
                       <TablixHeader>
                         <Size>0.25in</Size>
                         <CellContents>
-                          <Textbox Name="Textbox36">
+                          <Textbox Name="Textbox79">
                             <CanGrow>true</CanGrow>
                             <KeepTogether>true</KeepTogether>
                             <Paragraphs>
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>As of Date :</Value>
+                                    <Value>From Date :</Value>
                                     <Style>
                                       <FontFamily>Century Gothic</FontFamily>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
                                 <Style>
-                                  <TextAlign>Left</TextAlign>
+                                  <TextAlign>Right</TextAlign>
                                 </Style>
                               </Paragraph>
                             </Paragraphs>
-                            <rd:DefaultName>Textbox25</rd:DefaultName>
-                            <ZIndex>6</ZIndex>
+                            <rd:DefaultName>Textbox79</rd:DefaultName>
                             <Style>
                               <Border>
                                 <Style>None</Style>
@@ -1002,27 +1327,25 @@
                           <TablixHeader>
                             <Size>0.25in</Size>
                             <CellContents>
-                              <Textbox Name="Textbox38">
+                              <Textbox Name="Textbox80">
                                 <CanGrow>true</CanGrow>
                                 <KeepTogether>true</KeepTogether>
                                 <Paragraphs>
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>Print Date :</Value>
+                                        <Value>To Date :</Value>
                                         <Style>
                                           <FontFamily>Century Gothic</FontFamily>
-                                          <FontSize>9pt</FontSize>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
                                     <Style>
-                                      <TextAlign>Left</TextAlign>
+                                      <TextAlign>Right</TextAlign>
                                     </Style>
                                   </Paragraph>
                                 </Paragraphs>
-                                <rd:DefaultName>Textbox25</rd:DefaultName>
-                                <ZIndex>1</ZIndex>
+                                <rd:DefaultName>Textbox80</rd:DefaultName>
                                 <Style>
                                   <Border>
                                     <Style>None</Style>
@@ -1037,7 +1360,110 @@
                             </CellContents>
                           </TablixHeader>
                           <TablixMembers>
-                            <TablixMember />
+                            <TablixMember>
+                              <Group Name="year">
+                                <GroupExpressions>
+                                  <GroupExpression>=Fields!year.Value</GroupExpression>
+                                </GroupExpressions>
+                              </Group>
+                              <SortExpressions>
+                                <SortExpression>
+                                  <Value>=Fields!year.Value</Value>
+                                </SortExpression>
+                              </SortExpressions>
+                              <TablixMembers>
+                                <TablixMember>
+                                  <TablixHeader>
+                                    <Size>0.25in</Size>
+                                    <CellContents>
+                                      <Textbox Name="Textbox81">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Print Date :</Value>
+                                                <Style>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style>
+                                              <TextAlign>Right</TextAlign>
+                                            </Style>
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox81</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <VerticalAlign>Middle</VerticalAlign>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                  <TablixMembers>
+                                    <TablixMember>
+                                      <Group Name="mon">
+                                        <GroupExpressions>
+                                          <GroupExpression>=Fields!mon.Value</GroupExpression>
+                                        </GroupExpressions>
+                                      </Group>
+                                      <SortExpressions>
+                                        <SortExpression>
+                                          <Value>=Fields!mon.Value</Value>
+                                        </SortExpression>
+                                      </SortExpressions>
+                                      <TablixHeader>
+                                        <Size>0.27083in</Size>
+                                        <CellContents>
+                                          <Textbox Name="mon1">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=MonthName(Fields!mon.Value, true) &amp; "-" &amp; Fields!year.Value</Value>
+                                                    <Style>
+                                                      <FontFamily>Century Gothic</FontFamily>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>mon1</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>Solid</Style>
+                                              </Border>
+                                              <BackgroundColor>#e2be7d</BackgroundColor>
+                                              <VerticalAlign>Middle</VerticalAlign>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixHeader>
+                                    </TablixMember>
+                                  </TablixMembers>
+                                </TablixMember>
+                              </TablixMembers>
+                            </TablixMember>
                           </TablixMembers>
                         </TablixMember>
                       </TablixMembers>
@@ -1089,14 +1515,14 @@
                       <TablixHeader>
                         <Size>0.25in</Size>
                         <CellContents>
-                          <Textbox Name="Textbox31">
+                          <Textbox Name="Textbox26">
                             <CanGrow>true</CanGrow>
                             <KeepTogether>true</KeepTogether>
                             <Paragraphs>
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value>=Parameters!AsOfDate.Value</Value>
+                                    <Value>=Parameters!FromDate.Value</Value>
                                     <Style>
                                       <FontStyle>Italic</FontStyle>
                                       <FontFamily>Century Gothic</FontFamily>
@@ -1110,7 +1536,7 @@
                               </Paragraph>
                             </Paragraphs>
                             <rd:DefaultName>Textbox26</rd:DefaultName>
-                            <ZIndex>7</ZIndex>
+                            <ZIndex>4</ZIndex>
                             <Style>
                               <Border>
                                 <Style>None</Style>
@@ -1130,18 +1556,18 @@
                           <TablixHeader>
                             <Size>0.25in</Size>
                             <CellContents>
-                              <Textbox Name="Textbox29">
+                              <Textbox Name="Textbox31">
                                 <CanGrow>true</CanGrow>
                                 <KeepTogether>true</KeepTogether>
                                 <Paragraphs>
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>=Microsoft.VisualBasic.Strings.Format(NOW, "dd-MMM-yyyy")</Value>
+                                        <Value>=Parameters!ToDate.Value</Value>
                                         <Style>
                                           <FontStyle>Italic</FontStyle>
                                           <FontFamily>Century Gothic</FontFamily>
-                                          <Format>d</Format>
+                                          <Format>dd-MMM-yyyy</Format>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -1151,7 +1577,7 @@
                                   </Paragraph>
                                 </Paragraphs>
                                 <rd:DefaultName>Textbox26</rd:DefaultName>
-                                <ZIndex>2</ZIndex>
+                                <ZIndex>7</ZIndex>
                                 <Style>
                                   <Border>
                                     <Style>None</Style>
@@ -1167,7 +1593,89 @@
                             </CellContents>
                           </TablixHeader>
                           <TablixMembers>
-                            <TablixMember />
+                            <TablixMember>
+                              <TablixHeader>
+                                <Size>0.25in</Size>
+                                <CellContents>
+                                  <Textbox Name="Textbox29">
+                                    <CanGrow>true</CanGrow>
+                                    <KeepTogether>true</KeepTogether>
+                                    <Paragraphs>
+                                      <Paragraph>
+                                        <TextRuns>
+                                          <TextRun>
+                                            <Value>=Microsoft.VisualBasic.Strings.Format(NOW, "dd-MMM-yyyy")</Value>
+                                            <Style>
+                                              <FontStyle>Italic</FontStyle>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <Format>d</Format>
+                                            </Style>
+                                          </TextRun>
+                                        </TextRuns>
+                                        <Style>
+                                          <TextAlign>Left</TextAlign>
+                                        </Style>
+                                      </Paragraph>
+                                    </Paragraphs>
+                                    <rd:DefaultName>Textbox26</rd:DefaultName>
+                                    <ZIndex>2</ZIndex>
+                                    <Style>
+                                      <Border>
+                                        <Style>None</Style>
+                                      </Border>
+                                      <BackgroundColor>Gainsboro</BackgroundColor>
+                                      <VerticalAlign>Middle</VerticalAlign>
+                                      <PaddingLeft>2pt</PaddingLeft>
+                                      <PaddingRight>2pt</PaddingRight>
+                                      <PaddingTop>2pt</PaddingTop>
+                                      <PaddingBottom>2pt</PaddingBottom>
+                                    </Style>
+                                  </Textbox>
+                                </CellContents>
+                              </TablixHeader>
+                              <TablixMembers>
+                                <TablixMember>
+                                  <TablixHeader>
+                                    <Size>0.27083in</Size>
+                                    <CellContents>
+                                      <Textbox Name="Textbox2">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Change %</Value>
+                                                <Style>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontWeight>Bold</FontWeight>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style>
+                                              <TextAlign>Center</TextAlign>
+                                            </Style>
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox2</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>LightGrey</Color>
+                                            <Style>Solid</Style>
+                                          </Border>
+                                          <BackgroundColor>#e2be7d</BackgroundColor>
+                                          <VerticalAlign>Middle</VerticalAlign>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                </TablixMember>
+                              </TablixMembers>
+                            </TablixMember>
                           </TablixMembers>
                         </TablixMember>
                       </TablixMembers>
@@ -1179,66 +1687,124 @@
             <TablixRowHierarchy>
               <TablixMembers>
                 <TablixMember>
-                  <Group Name="tt">
+                  <Group Name="acc_class">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!tt.Value</GroupExpression>
+                      <GroupExpression>=Fields!acc_class.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <SortExpressions>
                     <SortExpression>
-                      <Value>=Fields!tt.Value</Value>
+                      <Value>=Fields!acc_class.Value</Value>
                     </SortExpression>
                   </SortExpressions>
                   <TablixMembers>
                     <TablixMember>
-                      <Group Name="acc_class">
+                      <TablixHeader>
+                        <Size>3.88126in</Size>
+                        <CellContents>
+                          <Textbox Name="acc_class">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value xml:space="preserve"> </Value>
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
+                                    </Style>
+                                  </TextRun>
+                                  <TextRun>
+                                    <Value>=MID(Fields!acc_class.Value, 3)</Value>
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontWeight>Bold</FontWeight>
+                                      <Color>#e2be7d</Color>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>acc_class</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>#2d351e</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <TopBorder>
+                                <Color>#2d351e</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </TopBorder>
+                              <BottomBorder>
+                                <Color>#2d351e</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </BottomBorder>
+                              <LeftBorder>
+                                <Color>#2d351e</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </LeftBorder>
+                              <RightBorder>
+                                <Color>#2d351e</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </RightBorder>
+                              <BackgroundColor>#2d351e</BackgroundColor>
+                              <VerticalAlign>Middle</VerticalAlign>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                    </TablixMember>
+                    <TablixMember>
+                      <Group Name="account_type">
                         <GroupExpressions>
-                          <GroupExpression>=Fields!acc_class.Value</GroupExpression>
+                          <GroupExpression>=Fields!account_type.Value</GroupExpression>
                         </GroupExpressions>
                       </Group>
                       <SortExpressions>
                         <SortExpression>
-                          <Value>=Fields!acc_class.Value</Value>
+                          <Value>=Fields!account_type.Value</Value>
                         </SortExpression>
                       </SortExpressions>
                       <TablixMembers>
                         <TablixMember>
                           <TablixHeader>
-                            <Size>4.4396in</Size>
+                            <Size>3.88126in</Size>
                             <CellContents>
-                              <Textbox Name="acc_class">
+                              <Textbox Name="account_type1">
                                 <CanGrow>true</CanGrow>
                                 <KeepTogether>true</KeepTogether>
                                 <Paragraphs>
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value xml:space="preserve"> </Value>
+                                        <Value>=MID(Fields!account_type.Value,4)</Value>
                                         <Style>
                                           <FontFamily>Century Gothic</FontFamily>
                                           <FontWeight>Bold</FontWeight>
-                                          <Color>White</Color>
-                                        </Style>
-                                      </TextRun>
-                                      <TextRun>
-                                        <Value>=MID(Fields!acc_class.Value, 3)</Value>
-                                        <Style>
-                                          <FontFamily>Century Gothic</FontFamily>
-                                          <FontWeight>Bold</FontWeight>
-                                          <Color>White</Color>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
                                     <Style />
                                   </Paragraph>
                                 </Paragraphs>
-                                <rd:DefaultName>acc_class</rd:DefaultName>
+                                <rd:DefaultName>account_type1</rd:DefaultName>
                                 <Style>
                                   <Border>
                                     <Color>LightGrey</Color>
                                     <Style>Solid</Style>
                                   </Border>
-                                  <BackgroundColor>#2d351e</BackgroundColor>
+                                  <BackgroundColor>LightGrey</BackgroundColor>
                                   <VerticalAlign>Middle</VerticalAlign>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
@@ -1249,7 +1815,7 @@
                             </CellContents>
                           </TablixHeader>
                           <Visibility>
-                            <Hidden>=IIF(Fields!acc_class.Value = "9.FINANCE INCOME" OR Fields!acc_class.Value = "10.FINANCE COST" OR Fields!acc_class.Value = "12.INCOME TAX EXPENSE" ,True, False)</Hidden>
+                            <Hidden>=IIF(Fields!account_type.Value = "8 .EQUITY" OR Fields!account_type.Value = "99.Net Income",TRUE,FALSE)</Hidden>
                           </Visibility>
                           <KeepWithGroup>After</KeepWithGroup>
                         </TablixMember>
@@ -1267,7 +1833,7 @@
                           <TablixMembers>
                             <TablixMember>
                               <TablixHeader>
-                                <Size>4.4396in</Size>
+                                <Size>3.88126in</Size>
                                 <CellContents>
                                   <Textbox Name="glm">
                                     <CanGrow>true</CanGrow>
@@ -1276,13 +1842,13 @@
                                       <Paragraph>
                                         <TextRuns>
                                           <TextRun>
-                                            <Value xml:space="preserve">      </Value>
+                                            <Value xml:space="preserve">   </Value>
                                             <Style>
                                               <FontFamily>Century Gothic</FontFamily>
                                             </Style>
                                           </TextRun>
                                           <TextRun>
-                                            <Value>=Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, "")</Value>
+                                            <Value>=IIF(Fields!glm.Value = "Net  Net Income", "Net Income",Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, ""))</Value>
                                             <Style>
                                               <FontFamily>Century Gothic</FontFamily>
                                             </Style>
@@ -1322,7 +1888,7 @@
                                 </SortExpression>
                               </SortExpressions>
                               <TablixHeader>
-                                <Size>4.4396in</Size>
+                                <Size>3.88126in</Size>
                                 <CellContents>
                                   <Textbox Name="gl_name">
                                     <CanGrow>true</CanGrow>
@@ -1331,13 +1897,13 @@
                                       <Paragraph>
                                         <TextRuns>
                                           <TextRun>
-                                            <Value xml:space="preserve">            </Value>
+                                            <Value xml:space="preserve">       </Value>
                                             <Style>
                                               <FontFamily>Century Gothic</FontFamily>
                                             </Style>
                                           </TextRun>
                                           <TextRun>
-                                            <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", IIF(Fields!glm.Value = "",""," - ")) &amp; Fields!gl_name.Value</Value>
+                                            <Value>=IIF(Fields!gl.Value = "Net Income","Net Income",Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", IIF(Fields!glm.Value = "",""," - ")) &amp; Fields!gl_name.Value)</Value>
                                             <Style>
                                               <FontFamily>Century Gothic</FontFamily>
                                             </Style>
@@ -1364,7 +1930,7 @@
                             </TablixMember>
                             <TablixMember>
                               <TablixHeader>
-                                <Size>4.4396in</Size>
+                                <Size>3.88126in</Size>
                                 <CellContents>
                                   <Textbox Name="Textbox41">
                                     <CanGrow>true</CanGrow>
@@ -1380,14 +1946,16 @@
                                             </Style>
                                           </TextRun>
                                           <TextRun>
-                                            <Value>="Total " &amp; Fields!glnm.Value</Value>
+                                            <Value>="Total " &amp; Fields!glnm.Value &amp; " :"</Value>
                                             <Style>
                                               <FontFamily>Century Gothic</FontFamily>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
-                                        <Style />
+                                        <Style>
+                                          <TextAlign>Right</TextAlign>
+                                        </Style>
                                       </Paragraph>
                                     </Paragraphs>
                                     <rd:DefaultName>Textbox41</rd:DefaultName>
@@ -1411,30 +1979,69 @@
                             </TablixMember>
                           </TablixMembers>
                         </TablixMember>
+                        <TablixMember>
+                          <TablixHeader>
+                            <Size>3.88126in</Size>
+                            <CellContents>
+                              <Textbox Name="account_type2">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>="TOTAL " &amp; MID(Fields!account_type.Value,4) &amp; " :"</Value>
+                                        <Style>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style>
+                                      <TextAlign>Right</TextAlign>
+                                    </Style>
+                                  </Paragraph>
+                                </Paragraphs>
+                                <rd:DefaultName>account_type2</rd:DefaultName>
+                                <Style>
+                                  <Border>
+                                    <Color>LightGrey</Color>
+                                    <Style>Solid</Style>
+                                  </Border>
+                                  <BottomBorder>
+                                    <Color>White</Color>
+                                    <Style>Solid</Style>
+                                    <Width>1pt</Width>
+                                  </BottomBorder>
+                                  <BackgroundColor>LightGrey</BackgroundColor>
+                                  <VerticalAlign>Middle</VerticalAlign>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                            </CellContents>
+                          </TablixHeader>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!account_type.Value = "8 .EQUITY" OR Fields!account_type.Value = "99.Net Income",TRUE,FALSE)</Hidden>
+                          </Visibility>
+                          <KeepWithGroup>Before</KeepWithGroup>
+                        </TablixMember>
                       </TablixMembers>
-                      <Visibility>
-                        <Hidden>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", true, false)</Hidden>
-                      </Visibility>
                     </TablixMember>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>4.4396in</Size>
+                        <Size>3.88126in</Size>
                         <CellContents>
-                          <Textbox Name="acc_class1">
+                          <Textbox Name="Textbox24">
                             <CanGrow>true</CanGrow>
                             <KeepTogether>true</KeepTogether>
                             <Paragraphs>
                               <Paragraph>
                                 <TextRuns>
                                   <TextRun>
-                                    <Value xml:space="preserve"> </Value>
-                                    <Style>
-                                      <FontFamily>Century Gothic</FontFamily>
-                                      <FontWeight>Bold</FontWeight>
-                                    </Style>
-                                  </TextRun>
-                                  <TextRun>
-                                    <Value>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", MID(Fields!acc_class.Value, 3) &amp; " :", "TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :")</Value>
+                                    <Value>="TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :"</Value>
                                     <Style>
                                       <FontFamily>Century Gothic</FontFamily>
                                       <FontWeight>Bold</FontWeight>
@@ -1446,7 +2053,7 @@
                                 </Style>
                               </Paragraph>
                             </Paragraphs>
-                            <rd:DefaultName>acc_class1</rd:DefaultName>
+                            <rd:DefaultName>Textbox24</rd:DefaultName>
                             <Style>
                               <Border>
                                 <Color>LightGrey</Color>
@@ -1457,7 +2064,7 @@
                                 <Style>Solid</Style>
                                 <Width>1pt</Width>
                               </BottomBorder>
-                              <BackgroundColor>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", "#e2be7d", "LightGrey")</BackgroundColor>
+                              <BackgroundColor>#e2be7d</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -1467,24 +2074,69 @@
                           </Textbox>
                         </CellContents>
                       </TablixHeader>
-                      <Visibility>
-                        <Hidden>=IIF(Fields!acc_class.Value = "9.FINANCE INCOME" OR Fields!acc_class.Value = "10.FINANCE COST" OR Fields!acc_class.Value = "12.INCOME TAX EXPENSE" ,True, False)</Hidden>
-                      </Visibility>
                       <KeepWithGroup>Before</KeepWithGroup>
                     </TablixMember>
                   </TablixMembers>
                   <Visibility>
-                    <Hidden>=iif( IsNothing(Fields!tt.Value), true, false)</Hidden>
+                    <Hidden>=iif(Fields!acc_class.Value="  GROSS PROFIT" OR Fields!acc_class.Value="  OPERATING PROFIT" OR Fields!acc_class.Value="  PROFIT BEFORE INCOME TAX" OR Fields!acc_class.Value="  NET PROFIT (LOSS) FOR THE PERIOD", true, false)</Hidden>
                   </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>3.88126in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox6">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>TOTAL LIABILITIES &amp; EQUITY :</Value>
+                                <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontWeight>Bold</FontWeight>
+                                  <Color>#e2be7d</Color>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Right</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox6</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BottomBorder>
+                            <Color>White</Color>
+                            <Style>Solid</Style>
+                            <Width>1pt</Width>
+                          </BottomBorder>
+                          <BackgroundColor>#2d351e</BackgroundColor>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <KeepWithGroup>Before</KeepWithGroup>
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <DataSetName>IncomeStatementYTDDS</DataSetName>
-            <Top>0.62329in</Top>
-            <Left>0.14156in</Left>
-            <Height>2.07292in</Height>
-            <Width>7.71703in</Width>
+            <DataSetName>BalanceSheetByMonthDS</DataSetName>
+            <Top>0.60857in</Top>
+            <Left>0.01121in</Left>
+            <Height>3.33333in</Height>
+            <Width>6.36983in</Width>
             <ZIndex>8</ZIndex>
+            <ToolTip>=IIF(Fields!acc_class.Value = "2.LIABILITIES",TRUE,FALSE)</ToolTip>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1493,23 +2145,15 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>7.99923in</Height>
-        <Style>
-          <Border>
-            <Style>Solid</Style>
-          </Border>
-        </Style>
+        <Height>5.43588in</Height>
+        <Style />
       </Body>
-      <Width>10.47618in</Width>
+      <Width>7.93032in</Width>
       <Page>
-        <PageHeight>8.27in</PageHeight>
-        <PageWidth>11.69in</PageWidth>
-        <InteractiveHeight>8.27in</InteractiveHeight>
-        <InteractiveWidth>11.69in</InteractiveWidth>
-        <LeftMargin>0.5in</LeftMargin>
-        <RightMargin>0.5in</RightMargin>
-        <TopMargin>0.5in</TopMargin>
-        <BottomMargin>0.5in</BottomMargin>
+        <LeftMargin>1in</LeftMargin>
+        <RightMargin>1in</RightMargin>
+        <TopMargin>1in</TopMargin>
+        <BottomMargin>1in</BottomMargin>
         <Style />
       </Page>
     </ReportSection>
@@ -1527,10 +2171,14 @@
       <AllowBlank>true</AllowBlank>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
-    <ReportParameter Name="AsOfDate">
+    <ReportParameter Name="FromDate">
       <DataType>String</DataType>
       <Nullable>true</Nullable>
       <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ToDate">
+      <DataType>String</DataType>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
   </ReportParameters>
@@ -1552,11 +2200,16 @@
         <CellDefinition>
           <ColumnIndex>2</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>AsOfDate</ParameterName>
+          <ParameterName>FromDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>ToDate</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
   </ReportParametersLayout>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>0de643ca-dbde-4092-8f3f-c6196df72397</rd:ReportID>
+  <rd:ReportID>32cb22b6-604d-4a12-976b-8df286ef1e8f</rd:ReportID>
 </Report>
