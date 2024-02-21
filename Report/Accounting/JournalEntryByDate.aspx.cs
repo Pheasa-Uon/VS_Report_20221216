@@ -2,6 +2,9 @@
 using System;
 using System.Data;
 using Report.Utils;
+using MySql.Data.MySqlClient;
+using Report.Models;
+using System.Collections.Generic;
 
 namespace Report.Accounting
 {
@@ -19,12 +22,41 @@ namespace Report.Accounting
                 DataHelper.checkLoginSession();
                 DataHelper.populateBranchDDL(ddBranchName, DataHelper.getUserId());
                 DataHelper.populateTransactionTypeDDL(ddTransactionType);
+                //this.populateUser();
                 var date = DataHelper.getSystemDateTextbox();
                 dtpFromDate.Text = date;
                 dtpToDate.Text = date;
             }
         }
+        /*
+        private void populateUser()
+        {
+            if (ddBranchName.SelectedItem.Value != "")
+            {
+                if (ddBranchName.SelectedItem.Value == "ALL")
+                {
+                    ddUser.Enabled = true;
+                    DataHelper.GetUserNamesAll(ddUser);
+                }
+                else
+                {
+                    ddUser.Enabled = true;
+                    DataHelper.GetUserNames(ddUser, Convert.ToInt32(ddBranchName.SelectedItem.Value));
+                }
 
+            }
+            else
+            {
+                ddUser.Enabled = false;
+                ddUser.Items.Clear();
+            }
+        }
+        
+        protected void ddBranchName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            populateUser();
+        }
+        */
         private void GenerateReport(DataTable trialBalanceDT)
         {
             ReportParameterCollection reportParameters = new ReportParameterCollection();
@@ -32,6 +64,7 @@ namespace Report.Accounting
             reportParameters.Add(new ReportParameter("FromDate", DateTime.ParseExact(dtpFromDate.Text, format, null).ToString("dd-MMM-yyyy")));
             reportParameters.Add(new ReportParameter("ToDate", DateTime.ParseExact(dtpToDate.Text, format, null).ToString("dd-MMM-yyyy")));
             reportParameters.Add(new ReportParameter("TransactionType", ddTransactionType.SelectedItem.Text));
+            //reportParameters.Add(new ReportParameter("User", ddUser.SelectedItem.Text));
 
             var _journalEntry = new ReportDataSource("JournalEntryByDateDS", trialBalanceDT);
             DataHelper.generateAccountingReport(ReportViewer1, "JournalEntryByDate", reportParameters, _journalEntry);
@@ -58,53 +91,16 @@ namespace Report.Accounting
                 return;
             }
 
+            var sql = "PS_JournalEntryByDate";
 
-            var sql = "";
-            if (ddBranchName.SelectedItem.Value == "ALL")
-            {
-                sql = "SELECT CASE WHEN act.balance_side = 1 THEN act.amount ELSE NULL END AS 'DR', " +
-               " CASE WHEN act.balance_side = 2 THEN act.amount ELSE NULL END AS 'CR',jou.is_manual, " +
-               " jou.trnx_id,act.trx_memo, act.gl_code,coa.gl_name,cur.currency,act.amount, " +
-               " jou.trnx_ref,sysdate.system_date sys_date,jou.journal_desc,usr.username,pro.lob_name,con.contract_no, " +
-               " IFNULL(cus.customer_name,jou.journal_name) as customer_name, act.last_updated " +
-               " FROM acc_transaction act " +
-               " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
-               " LEFT JOIN currency cur ON act.currency_id = cur.id " +
-               " LEFT JOIN acc_journal jou ON act.jounal_id = jou.id " +
-               " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
-               " LEFT JOIN contract con ON act.contract_id = con.id " +
-               " LEFT JOIN product pro ON con.product_id = pro.id " +
-               " LEFT JOIN customer cus ON con.customer_id = cus.id " +
-               " LEFT JOIN system_date sysdate on act.system_date_id = sysdate.id" +
-               " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND  act.trx_status IN(1, 2) ";
-            }
-            else
-            {
-                sql = "SELECT CASE WHEN act.balance_side = 1 THEN act.amount ELSE NULL END AS 'DR', " +
-                " CASE WHEN act.balance_side = 2 THEN act.amount ELSE NULL END AS 'CR',jou.is_manual, " +
-                " jou.trnx_id,act.trx_memo, act.gl_code,coa.gl_name,cur.currency,act.amount, " +
-                " jou.trnx_ref,sysdate.system_date sys_date,jou.journal_desc,usr.username,pro.lob_name,con.contract_no, " +
-                " IFNULL(cus.customer_name,jou.journal_name) as customer_name, act.last_updated " +
-                " FROM acc_transaction act " +
-                " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
-                " LEFT JOIN currency cur ON act.currency_id = cur.id " +
-                " LEFT JOIN acc_journal jou ON act.jounal_id = jou.id " +
-                " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
-                " LEFT JOIN contract con ON act.contract_id = con.id " +
-                " LEFT JOIN product pro ON con.product_id = pro.id " +
-                " LEFT JOIN customer cus ON con.customer_id = cus.id " +
-                " LEFT JOIN system_date sysdate on act.system_date_id = sysdate.id" +
-                " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND act.branch_id = " + ddBranchName.SelectedItem.Value + " AND act.trx_status IN(1, 2) ";
-            }
+            List<Procedure> procedureList = new List<Procedure>();
+            procedureList.Add(item: new Procedure() { field_name = "@pBranch", sql_db_type = MySqlDbType.VarChar, value_name = ddBranchName.SelectedItem.Value });
+            procedureList.Add(item: new Procedure() { field_name = "@pFRDT", sql_db_type = MySqlDbType.Date, value_name = fromDate });
+            procedureList.Add(item: new Procedure() { field_name = "@pTODT", sql_db_type = MySqlDbType.Date, value_name = toDate });
+            procedureList.Add(item: new Procedure() { field_name = "@pTransactionType", sql_db_type = MySqlDbType.VarChar, value_name = ddTransactionType.SelectedItem.Value });
+            //procedureList.Add(item: new Procedure() { field_name = "@pUSER", sql_db_type = MySqlDbType.VarChar, value_name = ddUser.SelectedItem.Value });
 
-
-            if (ddTransactionType.SelectedItem.Value != "0")
-            {
-                   sql += " AND jou.transaction_type_id = " + ddTransactionType.SelectedItem.Value;
-            }
-            sql += " ORDER BY jou.entry_no;";
-
-            DataTable journalEntryDT = db.getDataTable(sql);
+            DataTable journalEntryDT = db.getProcedureDataTable(sql, procedureList);
             GenerateReport(journalEntryDT);
         }
     }

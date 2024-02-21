@@ -77,26 +77,30 @@
           <DataField>transaction_type</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="lob_name">
-          <DataField>lob_name</DataField>
+        <Field Name="product_name">
+          <DataField>product_name</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="contract_no">
-          <DataField>contract_no</DataField>
+        <Field Name="account_number">
+          <DataField>account_number</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="customer_name">
-          <DataField>customer_name</DataField>
+        <Field Name="name">
+          <DataField>name</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="last_updated">
           <DataField>last_updated</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="transaction_type_id">
+          <DataField>transaction_type_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>JournalEntryByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\JournalEntryByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\JournalEntryByDate.xsd</rd:SchemaPath>
         <rd:TableName>JournalEntryByDateDataset</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -522,14 +526,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="customer_name">
+                        <Textbox Name="name">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!customer_name.Value</Value>
+                                  <Value>=Fields!name.Value</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -541,7 +545,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>customer_name</rd:DefaultName>
+                          <rd:DefaultName>name</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -565,7 +569,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!trx_memo.Value &amp; IIF(IsNothing(Fields!lob_name.Value),"", " - " &amp; Fields!lob_name.Value)</Value>
+                                  <Value>=Fields!trx_memo.Value &amp; IIF(Fields!transaction_type_id.Value &lt;&gt; 1,"", " - " &amp; Fields!product_name.Value)</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -595,14 +599,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="contract_no">
+                        <Textbox Name="account_number">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!contract_no.Value</Value>
+                                  <Value>=Fields!account_number.Value</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>9pt</FontSize>
@@ -614,7 +618,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>contract_no</rd:DefaultName>
+                          <rd:DefaultName>account_number</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -2090,7 +2094,7 @@
           </Textbox>
           <Line Name="Line3">
             <Top>3.76938in</Top>
-            <Left>12.86767in</Left>
+            <Left>13.24267in</Left>
             <Height>0in</Height>
             <Width>1.91012in</Width>
             <ZIndex>13</ZIndex>
