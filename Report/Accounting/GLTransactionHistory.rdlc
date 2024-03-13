@@ -89,6 +89,10 @@
           <DataField>journal_name</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="name">
+          <DataField>name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>GLTransactionHistory</rd:DataSetName>
@@ -514,14 +518,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox11">
+                        <Textbox Name="name">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIF(IsNothing(Fields!customer_name.Value),Fields!journal_name.Value,Fields!customer_name.Value)</Value>
+                                  <Value>=Fields!name.Value</Value>
                                   <Style>
                                     <FontFamily>Century Gothic</FontFamily>
                                   </Style>
@@ -532,7 +536,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox11</rd:DefaultName>
+                          <rd:DefaultName>name</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
