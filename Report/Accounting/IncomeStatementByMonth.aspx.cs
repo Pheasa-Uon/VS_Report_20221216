@@ -35,8 +35,10 @@ namespace Report.Accounting
             reportParameters.Add(new ReportParameter("ToDate", DateTime.ParseExact(dtpToDate.Text, format, null).ToString("dd-MMM-yyyy")));
 
             var ds = new ReportDataSource("IncomeStatementByMonthDS", dt);
+            /*var ytd = new ReportDataSource("IncomeStatementByMonthYTDDS", DTYTD);*/
 
             DataHelper.generateAccountingReport(ReportViewer1, "IncomeStatementByMonth", reportParameters, ds);
+            /*DataHelper.generateAccountingReport(ReportViewer1, "IncomeStatementByMonth", reportParameters, ds , ytd);*/
         }
 
         protected void btnView_Click(object sender, EventArgs e)
@@ -67,7 +69,16 @@ namespace Report.Accounting
             procedureList.Add(item: new Procedure() { field_name = "@FR_Date", sql_db_type = MySqlDbType.Date, value_name = fromDate });
             procedureList.Add(item: new Procedure() { field_name = "@TO_Date", sql_db_type = MySqlDbType.Date, value_name = toDate });
 
+            /*
+            var PS_INC_YTD = "PS_INC_YTD";
+
+            List<Procedure> procedureLisYTD = new List<Procedure>();
+            procedureLisYTD.Add(item: new Procedure() { field_name = "@pBranch", sql_db_type = MySqlDbType.VarChar, value_name = ddBranchName.SelectedItem.Value });
+            procedureLisYTD.Add(item: new Procedure() { field_name = "@TO_Date", sql_db_type = MySqlDbType.Date, value_name = toDate });
+            */
+
             DataTable DT = db.getProcedureDataTable(PS_INC3, procedureList);
+           /* DataTable DTYTD = db.getProcedureDataTable(PS_INC_YTD, procedureLisYTD);*/
 
             GenerateReport(DT);
         }

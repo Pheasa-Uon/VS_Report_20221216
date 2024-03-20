@@ -164,6 +164,8 @@
     <Content Include="Accounting\AccrualInterest.aspx" />
     <Content Include="Accounting\AccrualInterestOnPawn.aspx" />
     <Content Include="Accounting\BalanceSheet.aspx" />
+    <Content Include="Accounting\BalanceSheetByMonth.aspx" />
+    <Content Include="Accounting\BalanceSheetByPeriod.aspx" />
     <Content Include="Accounting\CashCollectionOnDate.aspx" />
     <Content Include="Accounting\CashConsolidate.aspx" />
     <Content Include="Accounting\CashEndingBalance.aspx" />
@@ -191,6 +193,7 @@
     <Content Include="Images\profile.png" />
     <Content Include="Images\ui-icons_444444_256x240.png" />
     <Content Include="Operation\AllContractList.aspx" />
+    <Content Include="Operation\AllSourceOfFundAccountList.aspx" />
     <Content Include="Operation\BranchProductivity.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -290,6 +293,39 @@
     </None>
     <Content Include="Dataset\AccrualInterest.xss">
       <DependentUpon>AccrualInterest.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\BalanceSheetByPeriod.xsc">
+      <DependentUpon>BalanceSheetByPeriod.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\AllSourceOfFundAccountList.xsc">
+      <DependentUpon>AllSourceOfFundAccountList.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\AllSourceOfFundAccountList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllSourceOfFundAccountList.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\AllSourceOfFundAccountList.xss">
+      <DependentUpon>AllSourceOfFundAccountList.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\BalanceSheetByMonth.xsc">
+      <DependentUpon>BalanceSheetByMonth.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\BalanceSheetByMonth.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BalanceSheetByMonth.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\BalanceSheetByMonth.xss">
+      <DependentUpon>BalanceSheetByMonth.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\BalanceSheetByPeriod.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BalanceSheetByPeriod.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\BalanceSheetByPeriod.xss">
+      <DependentUpon>BalanceSheetByPeriod.xsd</DependentUpon>
     </Content>
     <None Include="Dataset\BranchProductivity.xsd">
       <SubType>Designer</SubType>
@@ -491,6 +527,17 @@
     <Content Include="Dataset\FixedAssetsListing.xsc">
       <DependentUpon>FixedAssetsListing.xsd</DependentUpon>
     </Content>
+    <Content Include="Dataset\FixedAssetListing.xsc">
+      <DependentUpon>FixedAssetListing.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\FixedAssetListing.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FixedAssetListing.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\FixedAssetListing.xss">
+      <DependentUpon>FixedAssetListing.xsd</DependentUpon>
+    </Content>
     <None Include="Dataset\FixedAssetsListing.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
@@ -566,7 +613,6 @@
     </Content>
     <Content Include="Operation\CashCollectionConsolidate.aspx" />
     <Content Include="Operation\CashCollectionOnDate.aspx" />
-    <Content Include="Operation\Customer.aspx" />
     <Content Include="Operation\ContractOutstandingByDate.aspx" />
     <Content Include="Operation\PawnListDetail.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -892,6 +938,20 @@
     <Compile Include="Accounting\BalanceSheet.aspx.designer.cs">
       <DependentUpon>BalanceSheet.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Accounting\BalanceSheetByMonth.aspx.cs">
+      <DependentUpon>BalanceSheetByMonth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\BalanceSheetByMonth.aspx.designer.cs">
+      <DependentUpon>BalanceSheetByMonth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounting\BalanceSheetByPeriod.aspx.cs">
+      <DependentUpon>BalanceSheetByPeriod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounting\BalanceSheetByPeriod.aspx.designer.cs">
+      <DependentUpon>BalanceSheetByPeriod.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Accounting\CashCollectionOnDate.aspx.cs">
       <DependentUpon>CashCollectionOnDate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1035,6 +1095,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AllContractList.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dataset\AllSourceOfFundAccountList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllSourceOfFundAccountList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\BalanceSheetByMonth.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BalanceSheetByMonth.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\BalanceSheetByPeriod.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BalanceSheetByPeriod.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dataset\BranchProductivityAsOf.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1121,6 +1196,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DailyTillPettyCash.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dataset\FixedAssetListing.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FixedAssetListing.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dataset\FixedAssetsListing.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1130,6 +1210,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GLTransactionHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\IncomeStatementByMonth.cs">
+      <DependentUpon>IncomeStatementByMonth.xsd</DependentUpon>
     </Compile>
     <Compile Include="Dataset\IncomeStatementByMonth.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -1239,6 +1322,13 @@
     <Compile Include="Operation\AllContractList.aspx.designer.cs">
       <DependentUpon>AllContractList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Operation\AllSourceOfFundAccountList.aspx.cs">
+      <DependentUpon>AllSourceOfFundAccountList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operation\AllSourceOfFundAccountList.aspx.designer.cs">
+      <DependentUpon>AllSourceOfFundAccountList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Operation\BranchProductivity.aspx.cs">
       <DependentUpon>BranchProductivity.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1285,13 +1375,6 @@
     </Compile>
     <Compile Include="Operation\CashCollectionOnDate.aspx.designer.cs">
       <DependentUpon>CashCollectionOnDate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Operation\Customer.aspx.cs">
-      <DependentUpon>Customer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Operation\Customer.aspx.designer.cs">
-      <DependentUpon>Customer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Operation\CustomerList.aspx.cs">
       <DependentUpon>CustomerList.aspx</DependentUpon>
@@ -1510,17 +1593,29 @@
     <Content Include="Accounting\AccrualInterestOnPawn.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Operation\ContractOutstandingByDate.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Accounting\FixedAssetListing.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Operation\Customer.rdlc">
+    <Content Include="Accounting\BalanceSheetByPeriod.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Operation\ContractOutstandingByDate.rdlc">
+    <Content Include="Operation\AllSourceOfFundAccountList.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounting\BalanceSheetByMonth.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

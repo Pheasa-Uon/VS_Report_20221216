@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Report.Accounting {
-    
-    
-    public partial class IncomeStatementByDate {
-        
+namespace Report.Accounting
+{
+
+
+    public partial class IncomeStatementByDate
+    {
+
         /// <summary>
         /// ddBranchName control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddBranchName;
-        
+
         /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
+
         /// <summary>
         /// dtpFromDate control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox dtpFromDate;
-        
+
         /// <summary>
         /// RequiredFieldValidator2 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-        
+
         /// <summary>
         /// reqValidate control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator reqValidate;
-        
+
         /// <summary>
         /// dtpToDate control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox dtpToDate;
-        
+
         /// <summary>
         /// RequiredFieldValidator3 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-        
+
         /// <summary>
         /// RegularExpressionValidator1 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
-        
+
         /// <summary>
         /// btnView control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace Report.Accounting {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnView;
-        
+
         /// <summary>
         /// ReportViewer1 control.
         /// </summary>

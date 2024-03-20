@@ -74,8 +74,11 @@ namespace Report.Accounting
                 "         CASE WHEN act.balance_side = 1 THEN - act.amount ELSE act.amount END " +
                 "     ELSE CASE WHEN act.balance_side = 2 THEN act.amount ELSE -act.amount END " +
                 " END AS amount, " +
-                " jou.trnx_id,act.trx_memo,act.gl_code,coa.gl_name,cur.currency,jou.trnx_ref, " +
-                " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side " +
+                " jou.trnx_id,act.trx_memo,act.gl_code,coa.gl_name,cur.currency,jou.trnx_ref,jou.journal_name, " +
+                " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side, " +
+                " case when cus.customer_name is null and jou.journal_name is null and ldr.lender_name is not null then ldr.lender_name" +
+                " when cus.customer_name is not null and jou.journal_name is null and ldr.lender_name is null then cus.customer_name" +
+                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else '' end name " +
                 " FROM acc_transaction act " +
                 " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
                 " LEFT JOIN acc_account_class aac ON coa.acc_class_id = aac.id " +
@@ -85,6 +88,9 @@ namespace Report.Accounting
                 " LEFT JOIN acc_vendor avd ON acb.vendor_id = avd.id " +
                 " LEFT JOIN contract con ON act.contract_id = con.id " +
                 " LEFT JOIN customer cus ON con.customer_id = cus.id " +
+                " LEFT JOIN source_of_fund_account sof ON act.sof_id = sof.id " +
+                " LEFT JOIN source_of_fund_product sofpro ON sof.source_product_id = sofpro.id " +
+                " LEFT JOIN lender ldr ON sof.lender_id = ldr.id " +
                 " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
                 " LEFT JOIN system_date sd ON act.system_date_id = sd.id " +
                 " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND act.trx_status IN(1, 2) " +
@@ -99,8 +105,11 @@ namespace Report.Accounting
                 "         CASE WHEN act.balance_side = 1 THEN - act.amount ELSE act.amount END " +
                 "     ELSE CASE WHEN act.balance_side = 2 THEN act.amount ELSE -act.amount END " +
                 " END AS amount, " +
-                " jou.trnx_id,act.trx_memo,act.gl_code,coa.gl_name,cur.currency,jou.trnx_ref, " +
-                " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side " +
+                " jou.trnx_id,act.trx_memo,act.gl_code,coa.gl_name,cur.currency,jou.trnx_ref,jou.journal_name, " +
+                " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side, " +
+                " case when cus.customer_name is null and jou.journal_name is null and ldr.lender_name is not null then ldr.lender_name" +
+                " when cus.customer_name is not null and jou.journal_name is null and ldr.lender_name is null then cus.customer_name" +
+                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else '' end name " +
                 " FROM acc_transaction act " +
                 " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
                 " LEFT JOIN acc_account_class aac ON coa.acc_class_id = aac.id " +
@@ -110,6 +119,9 @@ namespace Report.Accounting
                 " LEFT JOIN acc_vendor avd ON acb.vendor_id = avd.id " +
                 " LEFT JOIN contract con ON act.contract_id = con.id " +
                 " LEFT JOIN customer cus ON con.customer_id = cus.id " +
+                " LEFT JOIN source_of_fund_account sof ON act.sof_id = sof.id " +
+                " LEFT JOIN source_of_fund_product sofpro ON sof.source_product_id = sofpro.id " +
+                " LEFT JOIN lender ldr ON sof.lender_id = ldr.id " +
                 " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
                 " LEFT JOIN system_date sd ON act.system_date_id = sd.id " +
                 " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND act.branch_id = " + ddBranchName.SelectedItem.Value + " AND act.trx_status IN(1, 2) " +

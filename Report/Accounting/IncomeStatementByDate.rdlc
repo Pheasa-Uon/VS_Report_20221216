@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -45,7 +45,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_INCTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -85,7 +85,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_INCTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -113,7 +113,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_TTGOSTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -153,7 +153,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_INCTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -181,7 +181,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_TTGOSTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -221,7 +221,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_INCTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -249,8 +249,116 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
         <rd:TableName>PS_PLTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_INCEXPTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="glm">
+          <DataField>glm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl_name">
+          <DataField>gl_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="acc_class">
+          <DataField>acc_class</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ac_amt">
+          <DataField>ac_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_PLBINCTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="total_i">
+          <DataField>total_i</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="total_e">
+          <DataField>total_e</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ttgostran">
+          <DataField>ttgostran</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_TTGOSTRAN</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="PS_INCTAXTTRAN">
+      <Query>
+        <DataSourceName>IncomeStatementByDate</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="glm">
+          <DataField>glm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl">
+          <DataField>gl</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="glnm">
+          <DataField>glnm</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="gl_name">
+          <DataField>gl_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="acc_class">
+          <DataField>acc_class</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ac_amt">
+          <DataField>ac_amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>IncomeStatementByDate</rd:DataSetName>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\IncomeStatementByDate.xsd</rd:SchemaPath>
+        <rd:TableName>PS_INCTRAN</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
         <rd:TableAdapterName />
@@ -271,23 +379,23 @@
                     <Value>INCOME STATEMENT BY DATE</Value>
                     <Style>
                       <FontStyle>Normal</FontStyle>
-                      <FontFamily>Arial</FontFamily>
-                      <FontSize>14pt</FontSize>
+                      <FontFamily>Century Gothic</FontFamily>
+                      <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Color>Red</Color>
+                      <Color>#e2be7d</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>1.41889in</Top>
-            <Left>0.28193in</Left>
+            <Top>0.36061in</Top>
+            <Left>0.06267in</Left>
             <Height>0.2743in</Height>
-            <Width>7.625in</Width>
+            <Width>5.55529in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -308,8 +416,7 @@
                   <TextRun>
                     <Value>From Date :</Value>
                     <Style>
-                      <FontFamily>Arial</FontFamily>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -317,8 +424,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.74604in</Top>
-            <Left>0.28193in</Left>
+            <Top>0.91493in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>1</ZIndex>
@@ -343,7 +450,7 @@
                     <Value>=Parameters!FromDate.Value</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
-                      <FontFamily>Arial</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <Format>dd-MMM-yyyy</Format>
                     </Style>
                   </TextRun>
@@ -354,8 +461,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>0.74604in</Top>
-            <Left>1.25763in</Left>
+            <Top>0.91493in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>2</ZIndex>
@@ -381,10 +488,11 @@
                     <Value>=Parameters!CompanyName.Value</Value>
                     <Style>
                       <FontStyle>Normal</FontStyle>
-                      <FontFamily>Arial</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
+                      <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                       <TextDecoration>None</TextDecoration>
-                      <Color>#000000</Color>
+                      <Color>#2d351e</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -392,8 +500,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.125in</Top>
-            <Left>0.28238in</Left>
+            <Top>0.07242in</Top>
+            <Left>0.06267in</Left>
             <Height>0.2743in</Height>
             <Width>5.55529in</Width>
             <ZIndex>3</ZIndex>
@@ -417,9 +525,7 @@
                   <TextRun>
                     <Value>Print Date :</Value>
                     <Style>
-                      <FontFamily>Arial</FontFamily>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -427,10 +533,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.41889in</Top>
-            <Left>7.90693in</Left>
+            <Top>1.49131in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
-            <Width>0.83472in</Width>
+            <Width>0.94792in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -453,21 +559,21 @@
                     <Value>=Microsoft.VisualBasic.Strings.Format(NOW, "dd-MMM-yyyy")</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
-                      <FontFamily>Arial</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <Format>d</Format>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Right</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.41889in</Top>
-            <Left>8.74165in</Left>
+            <Top>1.49131in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
-            <Width>1.63819in</Width>
+            <Width>2.21508in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -490,8 +596,7 @@
                   <TextRun>
                     <Value>To Date :</Value>
                     <Style>
-                      <FontFamily>Arial</FontFamily>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -499,8 +604,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>1.03423in</Top>
-            <Left>0.28193in</Left>
+            <Top>1.20312in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>6</ZIndex>
@@ -525,7 +630,7 @@
                     <Value>=Parameters!ToDate.Value</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
-                      <FontFamily>Arial</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <Format>dd-MMM-yyyy</Format>
                     </Style>
                   </TextRun>
@@ -536,8 +641,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>1.03423in</Top>
-            <Left>1.25763in</Left>
+            <Top>1.20312in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>7</ZIndex>
@@ -554,8 +659,8 @@
             </Style>
           </Textbox>
           <Line Name="Line3">
-            <Top>10.08285in</Top>
-            <Left>8.39459in</Left>
+            <Top>10.28028in</Top>
+            <Left>8.17488in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>8</ZIndex>
@@ -573,15 +678,17 @@
                 <TextRuns>
                   <TextRun>
                     <Value>Approved by:</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>8.39459in</Left>
+            <Top>10.28028in</Top>
+            <Left>8.17488in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>9</ZIndex>
@@ -604,8 +711,7 @@
                   <TextRun>
                     <Value>Branch :</Value>
                     <Style>
-                      <FontFamily>Arial</FontFamily>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -613,8 +719,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox25</rd:DefaultName>
-            <Top>0.45785in</Top>
-            <Left>0.28193in</Left>
+            <Top>0.62674in</Top>
+            <Left>6.96935in</Left>
             <Height>0.2743in</Height>
             <Width>0.94792in</Width>
             <ZIndex>10</ZIndex>
@@ -639,7 +745,7 @@
                     <Value>=Parameters!Branch.Value</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
-                      <FontFamily>Arial</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <Format>dd-MMM-yyyy</Format>
                     </Style>
                   </TextRun>
@@ -650,8 +756,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox26</rd:DefaultName>
-            <Top>0.45785in</Top>
-            <Left>1.25763in</Left>
+            <Top>0.62674in</Top>
+            <Left>7.94505in</Left>
             <Height>0.2743in</Height>
             <Width>2.22395in</Width>
             <ZIndex>11</ZIndex>
@@ -693,10 +799,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!acc_class.Value</Value>
+                                  <Value>=MID(Fields!acc_class.Value,3)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -709,7 +816,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -730,7 +837,9 @@
                                 <TextRun>
                                   <Value>Balance</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -745,7 +854,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -773,12 +882,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>=Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, "")</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -814,7 +925,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -852,7 +963,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -894,7 +1005,9 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", " - ") &amp; Fields!gl_name.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <ListLevel>1</ListLevel>
@@ -929,7 +1042,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -967,7 +1080,7 @@
                                 <TextRun>
                                   <Value>=Fields!ac_amt.Value</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1011,12 +1124,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>="Total " &amp; Fields!glnm.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1052,7 +1167,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1091,7 +1206,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1136,13 +1251,13 @@
                                 <TextRun>
                                   <Value>="TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :"</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1152,7 +1267,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1173,8 +1288,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1193,7 +1307,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1214,8 +1328,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1235,7 +1348,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1303,8 +1416,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_INCTRAN</DataSetName>
-            <Top>1.73164in</Top>
-            <Left>0.25045in</Left>
+            <Top>1.80406in</Top>
+            <Left>0.03074in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>12</ZIndex>
@@ -1340,10 +1453,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!acc_class.Value</Value>
+                                  <Value>=MID(Fields!acc_class.Value,3)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1356,7 +1470,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1377,7 +1491,9 @@
                                 <TextRun>
                                   <Value>Balance</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1392,7 +1508,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1420,12 +1536,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>=Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, "")</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1461,7 +1579,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1499,7 +1617,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1541,7 +1659,9 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", " - ") &amp; Fields!gl_name.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <ListLevel>1</ListLevel>
@@ -1576,7 +1696,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1614,7 +1734,7 @@
                                 <TextRun>
                                   <Value>=Fields!ac_amt.Value</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1658,12 +1778,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>="Total " &amp; Fields!glnm.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1699,7 +1821,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1738,7 +1860,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1783,13 +1905,13 @@
                                 <TextRun>
                                   <Value>="TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :"</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1799,7 +1921,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1820,8 +1942,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1840,7 +1961,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1861,8 +1982,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1882,7 +2002,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1950,8 +2070,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_GOSTRAN</DataSetName>
-            <Top>3.16046in</Top>
-            <Left>0.25in</Left>
+            <Top>3.23288in</Top>
+            <Left>0.03029in</Left>
             <Height>1.35938in</Height>
             <Width>10.12984in</Width>
             <ZIndex>13</ZIndex>
@@ -1965,10 +2085,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>3.15556in</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>3.31916in</Width>
+                  <Width>6.4654in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.53541in</Width>
@@ -1983,73 +2100,36 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox20">
+                        <Textbox Name="Textbox8">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>GROSS PROFIT :</Value>
+                                  <Value>GROSS PROFIT:</Value>
                                   <Style>
-                                    <FontFamily>lato</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox19</rd:DefaultName>
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
-                              <Style>None</Style>
+                              <Style>Solid</Style>
                               <Width>2pt</Width>
                             </Border>
-                            <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox22">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox21</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
+                            <RightBorder>
                               <Style>None</Style>
-                              <Width>2pt</Width>
-                            </Border>
-                            <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            </RightBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2070,15 +2150,13 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2092,7 +2170,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2113,9 +2191,7 @@
                                 <TextRun>
                                   <Value>=Fields!ttgostran.Value</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2136,7 +2212,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2155,7 +2231,6 @@
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
-                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -2166,10 +2241,10 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTGOSTRAN</DataSetName>
-            <Top>4.65366in</Top>
-            <Left>0.25045in</Left>
+            <Top>4.64782in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
-            <Width>10.12939in</Width>
+            <Width>10.12007in</Width>
             <ZIndex>14</ZIndex>
             <Style>
               <Border>
@@ -2203,10 +2278,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!acc_class.Value</Value>
+                                  <Value>=MID(Fields!acc_class.Value,3)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2219,7 +2295,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2240,7 +2316,9 @@
                                 <TextRun>
                                   <Value>Balance</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2255,7 +2333,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2283,12 +2361,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>=Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, "")</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2324,7 +2404,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2362,7 +2442,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2404,7 +2484,9 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", " - ") &amp; Fields!gl_name.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <ListLevel>1</ListLevel>
@@ -2439,7 +2521,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2477,7 +2559,7 @@
                                 <TextRun>
                                   <Value>=Fields!ac_amt.Value</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -2521,12 +2603,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>="Total " &amp; Fields!glnm.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2562,7 +2646,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2601,7 +2685,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2646,13 +2730,13 @@
                                 <TextRun>
                                   <Value>="TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :"</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2662,7 +2746,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2683,8 +2767,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2703,7 +2786,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2724,8 +2807,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2745,7 +2827,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2813,8 +2895,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_EXPTRAN</DataSetName>
-            <Top>5.03127in</Top>
-            <Left>0.25045in</Left>
+            <Top>4.93948in</Top>
+            <Left>0.03029in</Left>
             <Height>1.35938in</Height>
             <Width>10.12939in</Width>
             <ZIndex>15</ZIndex>
@@ -2853,16 +2935,15 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>NET ORDINARY INCOME :</Value>
+                                  <Value>OPERATING PROFIT:</Value>
                                   <Style>
-                                    <FontFamily>lato</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2876,7 +2957,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2884,44 +2965,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox37">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox21</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>None</Style>
-                              <Width>2pt</Width>
-                            </Border>
-                            <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox19">
@@ -2933,15 +2980,13 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -2955,7 +3000,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -2976,9 +3021,7 @@
                                 <TextRun>
                                   <Value>=Fields!ttgostran.Value</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2999,7 +3042,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3029,8 +3072,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_TTNDITRAN</DataSetName>
-            <Top>6.46008in</Top>
-            <Left>0.25045in</Left>
+            <Top>7.74158in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>16</ZIndex>
@@ -3066,10 +3109,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!acc_class.Value</Value>
+                                  <Value>=MID(Fields!acc_class.Value,3)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3082,7 +3126,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3103,7 +3147,9 @@
                                 <TextRun>
                                   <Value>Balance</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3118,7 +3164,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Wheat</BackgroundColor>
+                            <BackgroundColor>#2d351e</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3146,12 +3192,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>=Fields!glm.Value &amp; IIF(Fields!glnm.Value &lt;&gt; "", "000 - " &amp; Fields!glnm.Value, "")</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3187,7 +3235,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3225,7 +3273,7 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3267,7 +3315,9 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!gl.Value &amp; IIF(IsNothing(Fields!gl_name.Value), "--", " - ") &amp; Fields!gl_name.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <ListLevel>1</ListLevel>
@@ -3302,7 +3352,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3340,7 +3390,7 @@
                                 <TextRun>
                                   <Value>=Fields!ac_amt.Value</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -3384,12 +3434,14 @@
                                 <TextRun>
                                   <Value xml:space="preserve">  </Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value>="Total " &amp; Fields!glnm.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3425,7 +3477,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3464,7 +3516,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3509,13 +3561,13 @@
                                 <TextRun>
                                   <Value>="TOTAL " &amp; MID(Fields!acc_class.Value, 3) &amp; " :"</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -3525,7 +3577,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3546,8 +3598,7 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3566,7 +3617,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3587,8 +3638,7 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!ac_amt.Value)</Value>
                                   <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3608,7 +3658,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>LightGrey</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3676,8 +3726,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_OTHRETRAN</DataSetName>
-            <Top>6.77954in</Top>
-            <Left>0.25045in</Left>
+            <Top>6.34053in</Top>
+            <Left>0.03074in</Left>
             <Height>1.35938in</Height>
             <Width>10.13826in</Width>
             <ZIndex>17</ZIndex>
@@ -3716,16 +3766,15 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>NET INCOME:</Value>
+                                  <Value>NET PROFIT (LOSS) FOR THE PERIOD:</Value>
                                   <Style>
-                                    <FontFamily>lato</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -3739,7 +3788,7 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3747,44 +3796,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox45">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox21</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>None</Style>
-                              <Width>2pt</Width>
-                            </Border>
-                            <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
-                            <VerticalAlign>Middle</VerticalAlign>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox46">
@@ -3796,15 +3811,13 @@
                                 <TextRun>
                                   <Value>$</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -3818,7 +3831,7 @@
                             <RightBorder>
                               <Style>None</Style>
                             </RightBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3839,9 +3852,7 @@
                                 <TextRun>
                                   <Value>=Fields!p_l.Value</Value>
                                   <Style>
-                                    <FontStyle>Italic</FontStyle>
-                                    <FontFamily>Arial</FontFamily>
-                                    <FontSize>12pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3862,7 +3873,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>Beige</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3892,8 +3903,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>PS_PLTRAN</DataSetName>
-            <Top>8.20836in</Top>
-            <Left>0.25045in</Left>
+            <Top>8.9162in</Top>
+            <Left>0.03074in</Left>
             <Height>0.25in</Height>
             <Width>10.12939in</Width>
             <ZIndex>18</ZIndex>
@@ -3904,8 +3915,8 @@
             </Style>
           </Tablix>
           <Line Name="Line4">
-            <Top>10.08285in</Top>
-            <Left>0.68185in</Left>
+            <Top>10.28028in</Top>
+            <Left>4.18714in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>19</ZIndex>
@@ -3923,15 +3934,17 @@
                 <TextRuns>
                   <TextRun>
                     <Value>Reviewed by:</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>0.68185in</Left>
+            <Top>10.28028in</Top>
+            <Left>4.18714in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>20</ZIndex>
@@ -3953,15 +3966,17 @@
                 <TextRuns>
                   <TextRun>
                     <Value>Prepared by:</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox7</rd:DefaultName>
-            <Top>10.08285in</Top>
-            <Left>4.42218in</Left>
+            <Top>10.28028in</Top>
+            <Left>0.06267in</Left>
             <Height>0.25in</Height>
             <Width>1.63542in</Width>
             <ZIndex>21</ZIndex>
@@ -3976,8 +3991,8 @@
             </Style>
           </Textbox>
           <Line Name="Line5">
-            <Top>10.08285in</Top>
-            <Left>4.42218in</Left>
+            <Top>10.28028in</Top>
+            <Left>0.06267in</Left>
             <Height>0in</Height>
             <Width>1.63021in</Width>
             <ZIndex>22</ZIndex>
@@ -3987,15 +4002,515 @@
               </Border>
             </Style>
           </Line>
+          <Tablix Name="Tablix10">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>6.47472in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.53541in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.12813in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25521in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="gl6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!gl_name.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <ListLevel>1</ListLevel>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>gl</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox51">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>$</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="incac_amt12">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!ac_amt.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>incac_amt</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details8" />
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <Visibility>
+                    <Hidden>=IIF(Fields!ac_amt.Value = 0,true,false)</Hidden>
+                  </Visibility>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>PS_INCEXPTRAN</DataSetName>
+            <Top>8.02557in</Top>
+            <Left>0.03074in</Left>
+            <Height>0.25521in</Height>
+            <Width>10.13826in</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="Tablix11">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>6.47472in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.53541in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.12813in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25521in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="gl7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>PROFIT BEFORE INCOME TAX:</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>gl</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox52">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>$</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="incac_amt13">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!ttgostran.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>incac_amt</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details9" />
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>PS_PLBINCTRAN</DataSetName>
+            <Top>8.32245in</Top>
+            <Left>0.03029in</Left>
+            <Height>0.25521in</Height>
+            <Width>10.13826in</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="Tablix12">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>6.47472in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.53541in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.12813in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25521in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="gl8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!gl_name.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <ListLevel>1</ListLevel>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>gl</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox53">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>$</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="incac_amt14">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!ac_amt.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>incac_amt</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details10" />
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <Visibility>
+                    <Hidden>=IIF(Fields!ac_amt.Value = 0,true,false)</Hidden>
+                  </Visibility>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>PS_INCTAXTTRAN</DataSetName>
+            <Top>8.61932in</Top>
+            <Left>0.03074in</Left>
+            <Height>0.25521in</Height>
+            <Width>10.13826in</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
         </ReportItems>
-        <Height>10.45785in</Height>
+        <Height>10.88809in</Height>
         <Style>
           <Border>
             <Style>Solid</Style>
           </Border>
         </Style>
       </Body>
-      <Width>10.68454in</Width>
+      <Width>11.16013in</Width>
       <Page>
         <PageHeight>8.27in</PageHeight>
         <PageWidth>11.69in</PageWidth>

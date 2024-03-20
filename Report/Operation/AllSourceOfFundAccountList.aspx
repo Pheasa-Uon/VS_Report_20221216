@@ -1,9 +1,8 @@
-﻿<%@ Page Title="Customer" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Customer.aspx.cs" Inherits="Report.Operation.Customer" %>
-
+﻿<%@ Page Title="All Source Of Fund Account List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AllSourceOfFundAccountList.aspx.cs" Inherits="Report.Operation.AllSourceOfFundAccountList" %>
 <%@ Register Assembly="Microsoft.ReportViewer.WebForms" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-     <div class="panel panel-default no-margin">
+    <div class="panel panel-default no-margin">
         <div class="panel-body">
             <div class="row">
                 <div class="col-sm-3 form-group">
@@ -14,7 +13,6 @@
                         ErrorMessage="* Please select branch" ForeColor="Red" Font-Names="Tahoma" Display="Dynamic">
                     </asp:RequiredFieldValidator>
                 </div>
-
                 <div class="form-group ml16">
                     <div>
                         <label>&nbsp;</label>

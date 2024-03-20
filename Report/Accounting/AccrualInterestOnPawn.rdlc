@@ -148,7 +148,10 @@
                               <TextRun>
                                 <Value>No</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -163,7 +166,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -185,7 +188,10 @@
                               <TextRun>
                                 <Value>Contract ID</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -200,7 +206,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -222,7 +228,10 @@
                               <TextRun>
                                 <Value>Customer Name</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -237,7 +246,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -257,9 +266,12 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>LOB Type</Value>
+                                <Value>Product Name</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -274,7 +286,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -296,7 +308,10 @@
                               <TextRun>
                                 <Value>Date Disbursed</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -311,7 +326,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -333,7 +348,10 @@
                               <TextRun>
                                 <Value>Date Expired</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -348,7 +366,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -370,7 +388,10 @@
                               <TextRun>
                                 <Value>Outstanding</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -385,7 +406,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -407,7 +428,10 @@
                               <TextRun>
                                 <Value>Interest Rate</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -422,7 +446,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -446,7 +470,10 @@
                               <TextRun>
                                 <Value>Contract Status</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -461,7 +488,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -561,7 +588,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!ticket_no.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -594,7 +624,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!serial_number.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
@@ -625,7 +658,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!ticket_status.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -658,7 +694,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!sAccDate.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -691,7 +730,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!eAccDate.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -724,7 +766,10 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!num.Value</Value>
-                                  <Style />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -758,6 +803,8 @@
                                 <TextRun>
                                   <Value>=Fields!DRCur.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -793,6 +840,8 @@
                                 <TextRun>
                                   <Value>=Fields!other_pawn_earn.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -828,6 +877,8 @@
                                 <TextRun>
                                   <Value>=Fields!early_redeem.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -863,6 +914,8 @@
                                 <TextRun>
                                   <Value>=Fields!penalty.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -898,6 +951,8 @@
                                 <TextRun>
                                   <Value>=Fields!fee.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -933,6 +988,8 @@
                                 <TextRun>
                                   <Value>=Fields!DRCur.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -968,6 +1025,8 @@
                                 <TextRun>
                                   <Value>=Fields!interest_pay.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1003,6 +1062,8 @@
                                 <TextRun>
                                   <Value>=Fields!other_pawn_earn.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1038,6 +1099,8 @@
                                 <TextRun>
                                   <Value>=Fields!early_redeem.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1073,6 +1136,8 @@
                                 <TextRun>
                                   <Value>=Fields!penalty.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1108,6 +1173,8 @@
                                 <TextRun>
                                   <Value>=Fields!fee.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1143,6 +1210,8 @@
                                 <TextRun>
                                   <Value>=Fields!interest_pay.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1178,6 +1247,8 @@
                                 <TextRun>
                                   <Value>=Fields!DRCur.Value - Fields!interest_pay.Value</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -1218,6 +1289,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1258,6 +1331,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1297,6 +1372,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1336,6 +1413,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1375,6 +1454,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1414,6 +1495,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1454,6 +1537,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!DRCur.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1494,6 +1579,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!other_pawn_earn.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1534,6 +1621,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!early_redeem.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1574,6 +1663,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!penalty.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1614,6 +1705,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!fee.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1654,6 +1747,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!DRCur.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1694,6 +1789,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!interest_pay.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1734,6 +1831,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!other_pawn_earn.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1774,6 +1873,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!early_redeem.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1814,6 +1915,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!penalty.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1854,6 +1957,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!fee.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1894,6 +1999,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!interest_pay.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1934,6 +2041,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!DRCur.Value - Fields!interest_pay.Value)</Value>
                                   <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1979,7 +2088,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1998,7 +2108,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2018,7 +2128,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2037,7 +2148,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2057,7 +2168,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2076,7 +2188,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2096,7 +2208,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2115,7 +2228,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2135,7 +2248,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2154,7 +2268,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2174,7 +2288,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2193,7 +2308,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2213,7 +2328,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!DRCur.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2233,7 +2349,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2253,7 +2369,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!other_pawn_earn.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2273,7 +2390,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2293,7 +2410,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!early_redeem.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2313,7 +2431,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2333,7 +2451,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!penalty.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2353,7 +2472,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2373,7 +2492,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!fee.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2393,7 +2513,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2413,7 +2533,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!DRCur.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2433,7 +2554,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2453,7 +2574,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!interest_pay.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2473,7 +2595,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2493,7 +2615,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!other_pawn_earn.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2513,7 +2636,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2533,7 +2656,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!early_redeem.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2553,7 +2677,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2573,7 +2697,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!penalty.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2593,7 +2718,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2613,7 +2738,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!fee.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2633,7 +2759,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2653,7 +2779,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!interest_pay.Value + Fields!other_pawn_earn.Value + Fields!early_redeem.Value + Fields!penalty.Value + Fields!fee.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2673,7 +2800,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2693,7 +2820,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!DRCur.Value - Fields!interest_pay.Value)</Value>
                                   <Style>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -2713,7 +2841,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2741,7 +2869,10 @@
                               <TextRun>
                                 <Value>Ticket #</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2756,7 +2887,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2780,7 +2911,10 @@
                               <TextRun>
                                 <Value>Serial #</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2795,7 +2929,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2819,7 +2953,10 @@
                               <TextRun>
                                 <Value>Ticket Status</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2834,7 +2971,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2858,7 +2995,10 @@
                               <TextRun>
                                 <Value>From Accrual Date</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2873,7 +3013,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2897,7 +3037,10 @@
                               <TextRun>
                                 <Value>Last Accrual Date</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2912,7 +3055,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2936,7 +3079,10 @@
                               <TextRun>
                                 <Value>Accrual Current Month</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2951,7 +3097,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>HotPink</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2975,7 +3121,10 @@
                                   <TextRun>
                                     <Value>Day #</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -2990,7 +3139,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>HotPink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3014,7 +3163,10 @@
                                   <TextRun>
                                     <Value>Interest Accrual</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3029,7 +3181,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>HotPink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3055,7 +3207,10 @@
                               <TextRun>
                                 <Value>Other Income Cash Basic</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3070,7 +3225,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>Pink</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3094,7 +3249,10 @@
                                   <TextRun>
                                     <Value>Other Pawn Interest Earned</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3109,7 +3267,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>Pink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3133,7 +3291,10 @@
                                   <TextRun>
                                     <Value>Early Redeem Income</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3148,7 +3309,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>Pink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3172,7 +3333,10 @@
                                   <TextRun>
                                     <Value>Penalty</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3187,7 +3351,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>Pink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3211,7 +3375,10 @@
                                   <TextRun>
                                     <Value>Admin Fee</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3226,7 +3393,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>Pink</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3252,7 +3419,10 @@
                               <TextRun>
                                 <Value>Total</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3267,7 +3437,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>Pink</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3291,7 +3461,10 @@
                               <TextRun>
                                 <Value>Intereste Collect</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3306,7 +3479,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3330,7 +3503,10 @@
                                   <TextRun>
                                     <Value>Interest</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3345,7 +3521,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3369,7 +3545,10 @@
                                   <TextRun>
                                     <Value>Other Pawn Interest Earned</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3384,7 +3563,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3408,7 +3587,10 @@
                                   <TextRun>
                                     <Value>Early Redeem Income</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3423,7 +3605,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3447,7 +3629,10 @@
                                   <TextRun>
                                     <Value>Penalty</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3462,7 +3647,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3486,7 +3671,10 @@
                                   <TextRun>
                                     <Value>Admin Fee</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3501,7 +3689,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3525,7 +3713,10 @@
                                   <TextRun>
                                     <Value>Total Pay</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3540,7 +3731,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3566,7 +3757,10 @@
                               <TextRun>
                                 <Value>Difference</Value>
                                 <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3581,7 +3775,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>LightBlue</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3625,7 +3819,10 @@
                                 <TextRuns>
                                   <TextRun>
                                     <Value>=RunningValue(Fields!contract_no.Value, countdistinct,Nothing)</Value>
-                                    <Style />
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
+                                    </Style>
                                   </TextRun>
                                 </TextRuns>
                                 <Style>
@@ -3661,7 +3858,10 @@
                                     <TextRuns>
                                       <TextRun>
                                         <Value>=Fields!contract_no.Value</Value>
-                                        <Style />
+                                        <Style>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
+                                        </Style>
                                       </TextRun>
                                     </TextRuns>
                                     <Style>
@@ -3697,7 +3897,10 @@
                                         <TextRuns>
                                           <TextRun>
                                             <Value>=Fields!customer_name.Value</Value>
-                                            <Style />
+                                            <Style>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
+                                            </Style>
                                           </TextRun>
                                         </TextRuns>
                                         <Style>
@@ -3733,7 +3936,10 @@
                                             <TextRuns>
                                               <TextRun>
                                                 <Value>=Fields!lob_name.Value</Value>
-                                                <Style />
+                                                <Style>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
+                                                </Style>
                                               </TextRun>
                                             </TextRuns>
                                             <Style>
@@ -3769,7 +3975,10 @@
                                                 <TextRuns>
                                                   <TextRun>
                                                     <Value>=Fields!disbursement_date.Value</Value>
-                                                    <Style />
+                                                    <Style>
+                                                      <FontFamily>Century Gothic</FontFamily>
+                                                      <FontSize>9pt</FontSize>
+                                                    </Style>
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style>
@@ -3805,7 +4014,10 @@
                                                     <TextRuns>
                                                       <TextRun>
                                                         <Value>=Fields!expired_date.Value</Value>
-                                                        <Style />
+                                                        <Style>
+                                                          <FontFamily>Century Gothic</FontFamily>
+                                                          <FontSize>9pt</FontSize>
+                                                        </Style>
                                                       </TextRun>
                                                     </TextRuns>
                                                     <Style>
@@ -3842,6 +4054,8 @@
                                                           <TextRun>
                                                             <Value>=Fields!principle_due.Value</Value>
                                                             <Style>
+                                                              <FontFamily>Century Gothic</FontFamily>
+                                                              <FontSize>9pt</FontSize>
                                                               <Format>#,0.00;(#,0.00);'-'</Format>
                                                             </Style>
                                                           </TextRun>
@@ -3882,7 +4096,10 @@
                                                             <TextRuns>
                                                               <TextRun>
                                                                 <Value>=Fields!interest_rate.Value</Value>
-                                                                <Style />
+                                                                <Style>
+                                                                  <FontFamily>Century Gothic</FontFamily>
+                                                                  <FontSize>9pt</FontSize>
+                                                                </Style>
                                                               </TextRun>
                                                             </TextRuns>
                                                             <Style>
@@ -3921,7 +4138,10 @@
                                                                 <TextRuns>
                                                                   <TextRun>
                                                                     <Value>%</Value>
-                                                                    <Style />
+                                                                    <Style>
+                                                                      <FontFamily>Century Gothic</FontFamily>
+                                                                      <FontSize>9pt</FontSize>
+                                                                    </Style>
                                                                   </TextRun>
                                                                 </TextRuns>
                                                                 <Style>
@@ -3960,7 +4180,10 @@
                                                                     <TextRuns>
                                                                       <TextRun>
                                                                         <Value>=Fields!contract_status.Value</Value>
-                                                                        <Style />
+                                                                        <Style>
+                                                                          <FontFamily>Century Gothic</FontFamily>
+                                                                          <FontSize>9pt</FontSize>
+                                                                        </Style>
                                                                       </TextRun>
                                                                     </TextRuns>
                                                                     <Style>
@@ -4020,6 +4243,8 @@
                                   <TextRun>
                                     <Value>="TOTAL " &amp; Fields!lob_name.Value &amp; " (" &amp; CountDistinct(Fields!id.Value) &amp; ") :"</Value>
                                     <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -4062,6 +4287,8 @@
                                       <TextRun>
                                         <Value>=sum(Fields!principle_due.Value)</Value>
                                         <Style>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                           <Format>#,0.00;(#,0.00);'-'</Format>
                                         </Style>
@@ -4105,6 +4332,8 @@
                                           <TextRun>
                                             <Value />
                                             <Style>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -4147,6 +4376,8 @@
                                               <TextRun>
                                                 <Value />
                                                 <Style>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -4201,7 +4432,8 @@
                               <TextRun>
                                 <Value>= "GRAND TOTAL           (" &amp; CountDistinct(Fields!id.Value) &amp; ") :"</Value>
                                 <Style>
-                                  <FontSize>11pt</FontSize>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -4220,7 +4452,7 @@
                           <LeftBorder>
                             <Style>None</Style>
                           </LeftBorder>
-                          <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                          <BackgroundColor>#e2be7d</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -4243,7 +4475,8 @@
                                   <TextRun>
                                     <Value>=sum(Fields!principle_due.Value)</Value>
                                     <Style>
-                                      <FontSize>11pt</FontSize>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                       <Format>#,0.00;(#,0.00);'-'</Format>
                                     </Style>
@@ -4263,7 +4496,7 @@
                               <LeftBorder>
                                 <Style>None</Style>
                               </LeftBorder>
-                              <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                              <BackgroundColor>#e2be7d</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -4286,7 +4519,8 @@
                                       <TextRun>
                                         <Value />
                                         <Style>
-                                          <FontSize>11pt</FontSize>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                         </Style>
                                       </TextRun>
@@ -4305,7 +4539,7 @@
                                   <LeftBorder>
                                     <Style>None</Style>
                                   </LeftBorder>
-                                  <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                  <BackgroundColor>#e2be7d</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -4328,7 +4562,8 @@
                                           <TextRun>
                                             <Value />
                                             <Style>
-                                              <FontSize>11pt</FontSize>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -4347,7 +4582,7 @@
                                       <LeftBorder>
                                         <Style>None</Style>
                                       </LeftBorder>
-                                      <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                      <BackgroundColor>#e2be7d</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -4380,94 +4615,6 @@
               </Border>
             </Style>
           </Tablix>
-          <Line Name="Line1">
-            <Top>4.27201in</Top>
-            <Left>17.44811in</Left>
-            <Height>0in</Height>
-            <Width>1.9075in</Width>
-            <ZIndex>1</ZIndex>
-            <Style>
-              <Border>
-                <Style>Solid</Style>
-              </Border>
-            </Style>
-          </Line>
-          <Line Name="Line3">
-            <Top>4.27201in</Top>
-            <Left>5.28145in</Left>
-            <Height>0in</Height>
-            <Width>1.9075in</Width>
-            <ZIndex>2</ZIndex>
-            <Style>
-              <Border>
-                <Style>Solid</Style>
-              </Border>
-            </Style>
-          </Line>
-          <Textbox Name="Textbox22">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Branch Accountant </Value>
-                    <Style>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>4.32757in</Top>
-            <Left>5.27103in</Left>
-            <Height>0.25in</Height>
-            <Width>1.91792in</Width>
-            <ZIndex>3</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="Textbox24">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Branch Manager </Value>
-                    <Style>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>4.32409in</Top>
-            <Left>17.44811in</Left>
-            <Height>0.25in</Height>
-            <Width>1.9075in</Width>
-            <ZIndex>4</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <VerticalAlign>Middle</VerticalAlign>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Textbox Name="Textbox2">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -4475,9 +4622,9 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>BRANCH:</Value>
+                    <Value>Branch:</Value>
                     <Style>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -4485,11 +4632,11 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.5403in</Top>
-            <Left>0.14708in</Left>
+            <Top>0.77722in</Top>
+            <Left>22.64756in</Left>
             <Height>0.25in</Height>
-            <Width>1.57292in</Width>
-            <ZIndex>5</ZIndex>
+            <Width>1.16041in</Width>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4508,10 +4655,10 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>TO DATE:</Value>
+                    <Value>To Date:</Value>
                     <Style>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -4519,11 +4666,11 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.06807in</Top>
-            <Left>0.14708in</Left>
+            <Top>1.30499in</Top>
+            <Left>22.64756in</Left>
             <Height>0.25in</Height>
-            <Width>1.57292in</Width>
-            <ZIndex>6</ZIndex>
+            <Width>1.16041in</Width>
+            <ZIndex>2</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4544,27 +4691,29 @@
                   <TextRun>
                     <Value>ACCRUAL INTEREST VS ACTUAL</Value>
                     <Style>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Color>Red</Color>
+                      <Color>#e2be7d</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.46785in</Top>
+            <Top>0.45659in</Top>
             <Left>0.125in</Left>
             <Height>0.25in</Height>
-            <Width>19.80689in</Width>
-            <ZIndex>7</ZIndex>
+            <Width>6.37708in</Width>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
+              <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
@@ -4580,22 +4729,22 @@
                   <TextRun>
                     <Value>Print Date:</Value>
                     <Style>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Right</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.46785in</Top>
-            <Left>20.24022in</Left>
+            <Top>1.56889in</Top>
+            <Left>22.64756in</Left>
             <Height>0.25in</Height>
-            <Width>0.74591in</Width>
-            <ZIndex>8</ZIndex>
+            <Width>1.16041in</Width>
+            <ZIndex>4</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4617,24 +4766,25 @@
                     <Value>=Microsoft.VisualBasic.Strings.Format(NOW, "dd-MMM-yyyy")</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Right</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>1.46785in</Top>
-            <Left>20.98613in</Left>
+            <Top>1.56889in</Top>
+            <Left>23.80797in</Left>
             <Height>0.25in</Height>
-            <Width>1.19792in</Width>
-            <ZIndex>9</ZIndex>
+            <Width>1.83959in</Width>
+            <ZIndex>5</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
-              <BackgroundColor>Gainsboro</BackgroundColor>
+              <BackgroundColor>LightGrey</BackgroundColor>
               <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
@@ -4651,8 +4801,10 @@
                   <TextRun>
                     <Value>=Parameters!CompanyName.Value</Value>
                     <Style>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>11pt</FontSize>
                       <FontWeight>Bold</FontWeight>
+                      <Color>="ff2d351e"</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -4660,15 +4812,16 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>CompanyName</rd:DefaultName>
-            <Top>0.155in</Top>
+            <Top>0.14111in</Top>
             <Left>0.125in</Left>
             <Height>0.27381in</Height>
             <Width>6.37708in</Width>
-            <ZIndex>10</ZIndex>
+            <ZIndex>6</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
+              <VerticalAlign>Middle</VerticalAlign>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
@@ -4683,22 +4836,25 @@
                 <TextRuns>
                   <TextRun>
                     <Value>=Parameters!Branch.Value</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Branch</rd:DefaultName>
-            <Top>0.5403in</Top>
-            <Left>1.73389in</Left>
+            <Top>0.77722in</Top>
+            <Left>23.80797in</Left>
             <Height>0.25in</Height>
-            <Width>3.76819in</Width>
-            <ZIndex>11</ZIndex>
+            <Width>1.83959in</Width>
+            <ZIndex>7</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
+              <BackgroundColor>LightGrey</BackgroundColor>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
@@ -4713,22 +4869,25 @@
                 <TextRuns>
                   <TextRun>
                     <Value>=Parameters!ToDate.Value</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>SystemDate</rd:DefaultName>
-            <Top>1.06807in</Top>
-            <Left>1.73389in</Left>
+            <Top>1.305in</Top>
+            <Left>23.80797in</Left>
             <Height>0.25in</Height>
-            <Width>1.78125in</Width>
-            <ZIndex>12</ZIndex>
+            <Width>1.83959in</Width>
+            <ZIndex>8</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
+              <BackgroundColor>LightGrey</BackgroundColor>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
               <PaddingTop>2pt</PaddingTop>
@@ -4742,10 +4901,10 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>FROM DATE:</Value>
+                    <Value>From Date:</Value>
                     <Style>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -4753,11 +4912,11 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.80418in</Top>
-            <Left>0.14708in</Left>
+            <Top>1.0411in</Top>
+            <Left>22.64756in</Left>
             <Height>0.25in</Height>
-            <Width>1.57292in</Width>
-            <ZIndex>13</ZIndex>
+            <Width>1.16041in</Width>
+            <ZIndex>9</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -4777,17 +4936,108 @@
                 <TextRuns>
                   <TextRun>
                     <Value>=Parameters!FromDate.Value</Value>
-                    <Style />
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>SystemDate</rd:DefaultName>
-            <Top>0.80418in</Top>
-            <Left>1.73389in</Left>
+            <Top>1.0411in</Top>
+            <Left>23.80797in</Left>
             <Height>0.25in</Height>
-            <Width>1.78125in</Width>
+            <Width>1.83959in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>LightGrey</BackgroundColor>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line3">
+            <Top>4.32785in</Top>
+            <Left>19.84229in</Left>
+            <Height>0in</Height>
+            <Width>1.63021in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Approved by:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>4.32785in</Top>
+            <Left>19.84229in</Left>
+            <Height>0.25in</Height>
+            <Width>1.63542in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line6">
+            <Top>4.32785in</Top>
+            <Left>12.06994in</Left>
+            <Height>0in</Height>
+            <Width>1.63021in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox49">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Reviewed by:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>4.32785in</Top>
+            <Left>12.06994in</Left>
+            <Height>0.25in</Height>
+            <Width>1.63542in</Width>
             <ZIndex>14</ZIndex>
             <Style>
               <Border>
@@ -4799,8 +5049,52 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Line Name="Line7">
+            <Top>4.32785in</Top>
+            <Left>4.29218in</Left>
+            <Height>0in</Height>
+            <Width>1.63021in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox50">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Prepared by:</Value>
+                    <Style>
+                      <FontFamily>Century Gothic</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>4.32785in</Top>
+            <Left>4.29218in</Left>
+            <Height>0.25in</Height>
+            <Width>1.63542in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>5.65569in</Height>
+        <Height>4.90569in</Height>
         <Style />
       </Body>
       <Width>25.75947in</Width>

@@ -78,10 +78,14 @@
           <DataField>BL</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="co_pawn">
+          <DataField>co_pawn</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>UnearnedRevenue</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Soriya\MyData\PS\pawn-shop-report\Report\Dataset\UnearnedRevenue.xsd</rd:SchemaPath>
+        <rd:SchemaPath>D:\002-MIDAS Financial System\010-Reports\003-VS Report\001-VS Report_20230126\Report\Dataset\UnearnedRevenue.xsd</rd:SchemaPath>
         <rd:TableName>UNEARNED_DS</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
@@ -156,8 +160,10 @@
                               <TextRun>
                                 <Value>No</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -172,7 +178,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -194,8 +200,10 @@
                               <TextRun>
                                 <Value>Contract ID</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -210,7 +218,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -232,8 +240,10 @@
                               <TextRun>
                                 <Value>Customer Name</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -248,7 +258,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -268,10 +278,12 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>LOB Type</Value>
+                                <Value>Product Name</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -286,7 +298,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -308,8 +320,10 @@
                               <TextRun>
                                 <Value>Disbursement Amount</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -324,7 +338,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -346,8 +360,10 @@
                               <TextRun>
                                 <Value>Date Disbursed</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -362,7 +378,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -384,8 +400,10 @@
                               <TextRun>
                                 <Value>Date Expired</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -400,7 +418,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -422,8 +440,10 @@
                               <TextRun>
                                 <Value>Redeem Date</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -438,7 +458,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -460,8 +480,10 @@
                               <TextRun>
                                 <Value>Contract Status</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -476,7 +498,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -496,10 +518,12 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>UNEARNED BALANE</Value>
+                                <Value>Pawn Officer</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -514,7 +538,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -557,6 +581,9 @@
                 <TablixColumn>
                   <Width>1in</Width>
                 </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
@@ -573,7 +600,8 @@
                                 <TextRun>
                                   <Value>=Fields!sys_date.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>dd-MM-yyyy</Format>
                                   </Style>
                                 </TextRun>
@@ -609,7 +637,8 @@
                                 <TextRun>
                                   <Value>=Fields!ticket_no.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -644,7 +673,8 @@
                                 <TextRun>
                                   <Value>=iif(Fields!balance_side.Value="1", "Cleared unearned revenue", iif(Fields!balance_side.Value="2", "Received Prepaid Interest", Fields!balance_side.Value))</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -679,7 +709,8 @@
                                 <TextRun>
                                   <Value>=Fields!DR.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -715,7 +746,8 @@
                                 <TextRun>
                                   <Value>=Fields!CR.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -726,6 +758,43 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>CR</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!BL.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox19</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -756,7 +825,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -796,7 +866,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -836,7 +907,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -876,7 +948,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!DR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -917,7 +990,8 @@
                                 <TextRun>
                                   <Value>=SUM(Fields!CR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -929,6 +1003,48 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>CR1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=SUM(Max(Fields!BL.Value, "contract_no"))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -963,8 +1079,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -983,7 +1099,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1003,8 +1119,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1023,7 +1139,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1043,8 +1159,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1063,7 +1179,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1083,8 +1199,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!DR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1104,7 +1220,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1124,8 +1240,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!CR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -1145,7 +1261,48 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox21">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=SUM(Max(Fields!BL.Value, "contract_no"))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1173,8 +1330,10 @@
                               <TextRun>
                                 <Value>Date Posting</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1189,7 +1348,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -1213,8 +1372,10 @@
                               <TextRun>
                                 <Value>Ticket#</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1229,7 +1390,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -1253,8 +1414,10 @@
                               <TextRun>
                                 <Value>Description</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1269,7 +1432,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -1293,8 +1456,10 @@
                               <TextRun>
                                 <Value>UNEARNED REVENUE</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1309,7 +1474,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -1333,8 +1498,10 @@
                                   <TextRun>
                                     <Value>DR</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1349,7 +1516,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -1373,8 +1540,10 @@
                                   <TextRun>
                                     <Value>CR</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1389,7 +1558,93 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
+                              <VerticalAlign>Middle</VerticalAlign>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.25in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox7">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UNEARNED BALANE</Value>
+                                <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
+                                  <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox7</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#2d351e</BackgroundColor>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>0.25in</Size>
+                        <CellContents>
+                          <Textbox Name="Textbox14">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value />
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
+                                      <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style>
+                                  <TextAlign>Center</TextAlign>
+                                </Style>
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox14</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -1436,7 +1691,8 @@
                                   <TextRun>
                                     <Value>=RunningValue(Fields!contract_no.Value, countdistinct,Nothing)</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1474,7 +1730,8 @@
                                       <TextRun>
                                         <Value>=Fields!contract_no.Value</Value>
                                         <Style>
-                                          <FontFamily>Calibri</FontFamily>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -1512,7 +1769,8 @@
                                           <TextRun>
                                             <Value>=Fields!customer_name.Value</Value>
                                             <Style>
-                                              <FontFamily>Calibri</FontFamily>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
@@ -1550,7 +1808,8 @@
                                               <TextRun>
                                                 <Value>=Fields!lob_name.Value</Value>
                                                 <Style>
-                                                  <FontFamily>Calibri</FontFamily>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
                                                 </Style>
                                               </TextRun>
                                             </TextRuns>
@@ -1588,7 +1847,8 @@
                                                   <TextRun>
                                                     <Value>=Fields!pawn_price_approved.Value</Value>
                                                     <Style>
-                                                      <FontFamily>Calibri</FontFamily>
+                                                      <FontFamily>Century Gothic</FontFamily>
+                                                      <FontSize>9pt</FontSize>
                                                       <Format>#,0.00;(#,0.00);'-'</Format>
                                                     </Style>
                                                   </TextRun>
@@ -1627,7 +1887,8 @@
                                                       <TextRun>
                                                         <Value>=Fields!disbursement_date.Value</Value>
                                                         <Style>
-                                                          <FontFamily>Calibri</FontFamily>
+                                                          <FontFamily>Century Gothic</FontFamily>
+                                                          <FontSize>9pt</FontSize>
                                                         </Style>
                                                       </TextRun>
                                                     </TextRuns>
@@ -1665,7 +1926,8 @@
                                                           <TextRun>
                                                             <Value>=Fields!expired_date.Value</Value>
                                                             <Style>
-                                                              <FontFamily>Calibri</FontFamily>
+                                                              <FontFamily>Century Gothic</FontFamily>
+                                                              <FontSize>9pt</FontSize>
                                                             </Style>
                                                           </TextRun>
                                                         </TextRuns>
@@ -1703,7 +1965,8 @@
                                                               <TextRun>
                                                                 <Value>=Fields!redeem_date.Value</Value>
                                                                 <Style>
-                                                                  <FontFamily>Calibri</FontFamily>
+                                                                  <FontFamily>Century Gothic</FontFamily>
+                                                                  <FontSize>9pt</FontSize>
                                                                 </Style>
                                                               </TextRun>
                                                             </TextRuns>
@@ -1741,7 +2004,8 @@
                                                                   <TextRun>
                                                                     <Value>=Fields!contract_status.Value</Value>
                                                                     <Style>
-                                                                      <FontFamily>Calibri</FontFamily>
+                                                                      <FontFamily>Century Gothic</FontFamily>
+                                                                      <FontSize>9pt</FontSize>
                                                                     </Style>
                                                                   </TextRun>
                                                                 </TextRuns>
@@ -1770,16 +2034,17 @@
                                                           <TablixHeader>
                                                             <Size>1in</Size>
                                                             <CellContents>
-                                                              <Textbox Name="BL2">
+                                                              <Textbox Name="co_pawn">
                                                                 <CanGrow>true</CanGrow>
                                                                 <KeepTogether>true</KeepTogether>
                                                                 <Paragraphs>
                                                                   <Paragraph>
                                                                     <TextRuns>
                                                                       <TextRun>
-                                                                        <Value>=Fields!BL.Value</Value>
+                                                                        <Value>=Fields!co_pawn.Value</Value>
                                                                         <Style>
-                                                                          <FontFamily>Calibri</FontFamily>
+                                                                          <FontFamily>Century Gothic</FontFamily>
+                                                                          <FontSize>9pt</FontSize>
                                                                           <Format>#,0.00;(#,0.00);'-'</Format>
                                                                         </Style>
                                                                       </TextRun>
@@ -1789,7 +2054,7 @@
                                                                     </Style>
                                                                   </Paragraph>
                                                                 </Paragraphs>
-                                                                <rd:DefaultName>BL2</rd:DefaultName>
+                                                                <rd:DefaultName>co_pawn</rd:DefaultName>
                                                                 <Style>
                                                                   <Border>
                                                                     <Color>LightGrey</Color>
@@ -1846,7 +2111,8 @@
                                   <TextRun>
                                     <Value>="TOTAL " &amp; Fields!lob_name.Value &amp; " :"</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -1889,7 +2155,8 @@
                                       <TextRun>
                                         <Value>=SUM(Max(Fields!pawn_price_approved.Value, "contract_no"))</Value>
                                         <Style>
-                                          <FontFamily>Calibri</FontFamily>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                           <Format>#,0.00;(#,0.00);'-'</Format>
                                         </Style>
@@ -1933,7 +2200,8 @@
                                           <TextRun>
                                             <Value />
                                             <Style>
-                                              <FontFamily>Calibri</FontFamily>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -1976,7 +2244,8 @@
                                               <TextRun>
                                                 <Value />
                                                 <Style>
-                                                  <FontFamily>Calibri</FontFamily>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -2019,7 +2288,8 @@
                                                   <TextRun>
                                                     <Value />
                                                     <Style>
-                                                      <FontFamily>Calibri</FontFamily>
+                                                      <FontFamily>Century Gothic</FontFamily>
+                                                      <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -2062,7 +2332,8 @@
                                                       <TextRun>
                                                         <Value />
                                                         <Style>
-                                                          <FontFamily>Calibri</FontFamily>
+                                                          <FontFamily>Century Gothic</FontFamily>
+                                                          <FontSize>9pt</FontSize>
                                                           <FontWeight>Bold</FontWeight>
                                                         </Style>
                                                       </TextRun>
@@ -2103,9 +2374,10 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value>=SUM(Max(Fields!BL.Value, "contract_no"))</Value>
+                                                            <Value />
                                                             <Style>
-                                                              <FontFamily>Calibri</FontFamily>
+                                                              <FontFamily>Century Gothic</FontFamily>
+                                                              <FontSize>9pt</FontSize>
                                                               <FontWeight>Bold</FontWeight>
                                                               <Format>#,0.00;(#,0.00);'-'</Format>
                                                             </Style>
@@ -2167,8 +2439,8 @@
                               <TextRun>
                                 <Value>= "Total Unearned Pawn Interest Revenue Before Adjustment (" &amp; CountDistinct(Fields!id.Value) &amp; ") :"</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
-                                  <FontSize>11pt</FontSize>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -2184,7 +2456,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                          <BackgroundColor>#e2be7d</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -2207,8 +2479,8 @@
                                   <TextRun>
                                     <Value>=SUM(Max(Fields!pawn_price_approved.Value, "contract_no"))</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
-                                      <FontSize>11pt</FontSize>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                       <Format>#,0.00;(#,0.00);'-'</Format>
                                     </Style>
@@ -2228,7 +2500,7 @@
                               <LeftBorder>
                                 <Style>None</Style>
                               </LeftBorder>
-                              <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                              <BackgroundColor>#e2be7d</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -2251,8 +2523,8 @@
                                       <TextRun>
                                         <Value />
                                         <Style>
-                                          <FontFamily>Calibri</FontFamily>
-                                          <FontSize>11pt</FontSize>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                         </Style>
                                       </TextRun>
@@ -2271,7 +2543,7 @@
                                   <LeftBorder>
                                     <Style>None</Style>
                                   </LeftBorder>
-                                  <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                  <BackgroundColor>#e2be7d</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -2294,8 +2566,8 @@
                                           <TextRun>
                                             <Value />
                                             <Style>
-                                              <FontFamily>Calibri</FontFamily>
-                                              <FontSize>11pt</FontSize>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -2314,7 +2586,7 @@
                                       <LeftBorder>
                                         <Style>None</Style>
                                       </LeftBorder>
-                                      <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                      <BackgroundColor>#e2be7d</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -2337,8 +2609,8 @@
                                               <TextRun>
                                                 <Value />
                                                 <Style>
-                                                  <FontFamily>Calibri</FontFamily>
-                                                  <FontSize>11pt</FontSize>
+                                                  <FontFamily>Century Gothic</FontFamily>
+                                                  <FontSize>9pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -2357,7 +2629,7 @@
                                           <LeftBorder>
                                             <Style>None</Style>
                                           </LeftBorder>
-                                          <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                          <BackgroundColor>#e2be7d</BackgroundColor>
                                           <PaddingLeft>2pt</PaddingLeft>
                                           <PaddingRight>2pt</PaddingRight>
                                           <PaddingTop>2pt</PaddingTop>
@@ -2380,8 +2652,8 @@
                                                   <TextRun>
                                                     <Value />
                                                     <Style>
-                                                      <FontFamily>Calibri</FontFamily>
-                                                      <FontSize>11pt</FontSize>
+                                                      <FontFamily>Century Gothic</FontFamily>
+                                                      <FontSize>9pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -2400,7 +2672,7 @@
                                               <LeftBorder>
                                                 <Style>None</Style>
                                               </LeftBorder>
-                                              <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                              <BackgroundColor>#e2be7d</BackgroundColor>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -2421,10 +2693,10 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value>=SUM(Max(Fields!BL.Value, "contract_no"))</Value>
+                                                        <Value />
                                                         <Style>
-                                                          <FontFamily>Calibri</FontFamily>
-                                                          <FontSize>11pt</FontSize>
+                                                          <FontFamily>Century Gothic</FontFamily>
+                                                          <FontSize>9pt</FontSize>
                                                           <FontWeight>Bold</FontWeight>
                                                           <Format>#,0.00;(#,0.00);'-'</Format>
                                                         </Style>
@@ -2444,7 +2716,7 @@
                                                   <LeftBorder>
                                                     <Style>None</Style>
                                                   </LeftBorder>
-                                                  <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                                                  <BackgroundColor>#e2be7d</BackgroundColor>
                                                   <PaddingLeft>2pt</PaddingLeft>
                                                   <PaddingRight>2pt</PaddingRight>
                                                   <PaddingTop>2pt</PaddingTop>
@@ -2476,7 +2748,7 @@
             <Top>1.61774in</Top>
             <Left>0.14708in</Left>
             <Height>1.25in</Height>
-            <Width>15.30441in</Width>
+            <Width>16.30441in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2492,9 +2764,10 @@
                   <TextRun>
                     <Value>=Parameters!CompanyName.Value</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
+                      <Color>="ff2d351e"</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2502,7 +2775,6 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.08601in</Top>
             <Left>0.14708in</Left>
             <Height>0.25in</Height>
             <Width>4.30416in</Width>
@@ -2525,10 +2797,9 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>BRANCH:</Value>
+                    <Value>Branch:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2536,8 +2807,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.39853in</Top>
-            <Left>0.14708in</Left>
+            <Top>0.56219in</Top>
+            <Left>13.38345in</Left>
             <Height>0.25in</Height>
             <Width>1.03646in</Width>
             <ZIndex>2</ZIndex>
@@ -2559,11 +2830,9 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>AS OF:</Value>
+                    <Value>As Of Date:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2571,8 +2840,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.9263in</Top>
-            <Left>0.14708in</Left>
+            <Top>1.08996in</Top>
+            <Left>13.38345in</Left>
             <Height>0.25in</Height>
             <Width>1.03646in</Width>
             <ZIndex>3</ZIndex>
@@ -2596,18 +2865,17 @@
                   <TextRun>
                     <Value>=Parameters!Branch.Value</Value>
                     <Style>
-                      <FontStyle>Italic</FontStyle>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>0.39853in</Top>
-            <Left>1.18354in</Left>
+            <Top>0.56219in</Top>
+            <Left>14.41991in</Left>
             <Height>0.25in</Height>
             <Width>2.0177in</Width>
             <ZIndex>4</ZIndex>
@@ -2632,18 +2900,17 @@
                   <TextRun>
                     <Value>=Parameters!SystemDate.Value</Value>
                     <Style>
-                      <FontStyle>Italic</FontStyle>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>0.9263in</Top>
-            <Left>1.18354in</Left>
+            <Top>1.08996in</Top>
+            <Left>14.41991in</Left>
             <Height>0.25in</Height>
             <Width>2.0177in</Width>
             <ZIndex>5</ZIndex>
@@ -2668,23 +2935,23 @@
                   <TextRun>
                     <Value>UNEARNED PAWN INTEREST REVENUE</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>12pt</FontSize>
                       <FontWeight>Bold</FontWeight>
-                      <Color>Red</Color>
+                      <Color>#e2be7d</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.32608in</Top>
-            <Left>0.14708in</Left>
+            <Top>0.27778in</Top>
+            <Left>0.15167in</Left>
             <Height>0.25in</Height>
-            <Width>13.33281in</Width>
+            <Width>4.29957in</Width>
             <ZIndex>6</ZIndex>
             <Style>
               <Border>
@@ -2705,22 +2972,20 @@
                   <TextRun>
                     <Value>Print Date:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Right</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>1.32607in</Top>
-            <Left>13.50766in</Left>
+            <Top>1.35385in</Top>
+            <Left>13.38345in</Left>
             <Height>0.25in</Height>
-            <Width>0.74591in</Width>
+            <Width>1.03646in</Width>
             <ZIndex>7</ZIndex>
             <Style>
               <Border>
@@ -2743,19 +3008,19 @@
                     <Value>=Microsoft.VisualBasic.Strings.Format(NOW, "dd-MMM-yyyy")</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Right</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>1.32607in</Top>
-            <Left>14.25357in</Left>
+            <Top>1.35385in</Top>
+            <Left>14.4338in</Left>
             <Height>0.25in</Height>
-            <Width>1.19792in</Width>
+            <Width>2.01769in</Width>
             <ZIndex>8</ZIndex>
             <Style>
               <Border>
@@ -2776,11 +3041,9 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>PAWN OFFICER:</Value>
+                    <Value>Pawn Officer:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
-                      <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2788,8 +3051,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.66241in</Top>
-            <Left>0.14708in</Left>
+            <Top>0.82607in</Top>
+            <Left>13.38345in</Left>
             <Height>0.25in</Height>
             <Width>1.03646in</Width>
             <ZIndex>9</ZIndex>
@@ -2813,18 +3076,17 @@
                   <TextRun>
                     <Value>=Parameters!PawnOfficer.Value</Value>
                     <Style>
-                      <FontStyle>Italic</FontStyle>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                     </Style>
                   </TextRun>
                 </TextRuns>
                 <Style>
-                  <TextAlign>Center</TextAlign>
+                  <TextAlign>Left</TextAlign>
                 </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>0.66241in</Top>
-            <Left>1.18354in</Left>
+            <Top>0.82607in</Top>
+            <Left>14.41991in</Left>
             <Height>0.25in</Height>
             <Width>2.0177in</Width>
             <ZIndex>10</ZIndex>
@@ -2841,8 +3103,8 @@
             </Style>
           </Textbox>
           <Line Name="Line3">
-            <Top>5.69909in</Top>
-            <Left>1.4763in</Left>
+            <Top>5.50465in</Top>
+            <Left>6.68437in</Left>
             <Height>0in</Height>
             <Width>1.9075in</Width>
             <ZIndex>11</ZIndex>
@@ -2859,11 +3121,10 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Review by:</Value>
+                    <Value>Reviewed by:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2871,8 +3132,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>5.75465in</Top>
-            <Left>1.46588in</Left>
+            <Top>5.56021in</Top>
+            <Left>6.67395in</Left>
             <Height>0.25in</Height>
             <Width>1.91792in</Width>
             <ZIndex>12</ZIndex>
@@ -2886,7 +3147,7 @@
             </Style>
           </Textbox>
           <Line Name="Line1">
-            <Top>5.70257in</Top>
+            <Top>5.45257in</Top>
             <Left>11.919in</Left>
             <Height>0in</Height>
             <Width>1.9075in</Width>
@@ -2906,9 +3167,8 @@
                   <TextRun>
                     <Value>Approved by:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -2916,7 +3176,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>5.75465in</Top>
+            <Top>5.50465in</Top>
             <Left>11.919in</Left>
             <Height>0.25in</Height>
             <Width>1.9075in</Width>
@@ -2945,8 +3205,10 @@
                               <TextRun>
                                 <Value>No</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2961,7 +3223,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -2983,8 +3245,10 @@
                               <TextRun>
                                 <Value>Adjustment</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -2999,7 +3263,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3019,10 +3283,12 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>UNEARNED BALANE</Value>
+                                <Value />
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3037,7 +3303,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3070,6 +3336,9 @@
                 <TablixColumn>
                   <Width>1in</Width>
                 </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
@@ -3086,7 +3355,8 @@
                                 <TextRun>
                                   <Value>=Fields!sys_date.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>dd-MM-yyyy</Format>
                                   </Style>
                                 </TextRun>
@@ -3122,7 +3392,8 @@
                                 <TextRun>
                                   <Value>=Fields!trx_memo.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -3157,7 +3428,8 @@
                                 <TextRun>
                                   <Value>=Fields!DR.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -3193,7 +3465,8 @@
                                 <TextRun>
                                   <Value>=Fields!CR.Value</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
                                 </TextRun>
@@ -3204,6 +3477,43 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>CR</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox30">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!BL.Value</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox30</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -3234,7 +3544,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3274,7 +3585,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3314,7 +3626,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!DR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3355,7 +3668,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!CR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3367,6 +3681,48 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>CR1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox31">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Max(Fields!BL.Value, "contract_no2"))</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00);'-'</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox31</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -3401,8 +3757,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3421,7 +3777,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -3441,8 +3797,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -3461,7 +3817,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -3481,8 +3837,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!DR.Value, "UNEARNED_DS") + Sum(Fields!DR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3502,7 +3858,7 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -3522,8 +3878,8 @@
                                 <TextRun>
                                   <Value>=Sum(Fields!CR.Value, "UNEARNED_DS") + Sum(Fields!CR.Value)</Value>
                                   <Style>
-                                    <FontFamily>Calibri</FontFamily>
-                                    <FontSize>11pt</FontSize>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Format>#,0.00;(#,0.00);'-'</Format>
                                   </Style>
@@ -3543,7 +3899,47 @@
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
-                            <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox32">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox32</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
+                            <BackgroundColor>#e2be7d</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -3571,8 +3967,10 @@
                               <TextRun>
                                 <Value>Date Posting</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3587,7 +3985,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3611,8 +4009,10 @@
                               <TextRun>
                                 <Value>Description</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3627,7 +4027,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3651,8 +4051,10 @@
                               <TextRun>
                                 <Value>UNEARNED REVENUE</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -3667,7 +4069,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>#adc4a0</BackgroundColor>
+                          <BackgroundColor>#2d351e</BackgroundColor>
                           <VerticalAlign>Middle</VerticalAlign>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
@@ -3691,8 +4093,10 @@
                                   <TextRun>
                                     <Value>DR</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3707,7 +4111,7 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3731,8 +4135,10 @@
                                   <TextRun>
                                     <Value>CR</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3747,7 +4153,93 @@
                                 <Color>LightGrey</Color>
                                 <Style>Solid</Style>
                               </Border>
-                              <BackgroundColor>#adc4a0</BackgroundColor>
+                              <BackgroundColor>#2d351e</BackgroundColor>
+                              <VerticalAlign>Middle</VerticalAlign>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>0.25in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox28">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>UNEARNED BALANE</Value>
+                                <Style>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
+                                  <FontWeight>Bold</FontWeight>
+                                  <Color>White</Color>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style>
+                              <TextAlign>Center</TextAlign>
+                            </Style>
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>Textbox28</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#2d351e</BackgroundColor>
+                          <VerticalAlign>Middle</VerticalAlign>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>0.25in</Size>
+                        <CellContents>
+                          <Textbox Name="Textbox29">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value />
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
+                                      <FontWeight>Bold</FontWeight>
+                                      <Color>White</Color>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style>
+                                  <TextAlign>Center</TextAlign>
+                                </Style>
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox29</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <BackgroundColor>#2d351e</BackgroundColor>
                               <VerticalAlign>Middle</VerticalAlign>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
@@ -3794,7 +4286,8 @@
                                   <TextRun>
                                     <Value>=RunningValue(Fields!contract_no.Value, countdistinct, nothing)</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -3832,7 +4325,8 @@
                                       <TextRun>
                                         <Value>=Fields!lob_name.Value</Value>
                                         <Style>
-                                          <FontFamily>Calibri</FontFamily>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
@@ -3868,9 +4362,10 @@
                                       <Paragraph>
                                         <TextRuns>
                                           <TextRun>
-                                            <Value>=Fields!BL.Value</Value>
+                                            <Value />
                                             <Style>
-                                              <FontFamily>Calibri</FontFamily>
+                                              <FontFamily>Century Gothic</FontFamily>
+                                              <FontSize>9pt</FontSize>
                                               <Format>#,0.00;(#,0.00);'-'</Format>
                                             </Style>
                                           </TextRun>
@@ -3923,7 +4418,8 @@
                                   <TextRun>
                                     <Value>Total Adjustment :</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -3964,9 +4460,10 @@
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>=Sum(Max(Fields!BL.Value, "contract_no2"))</Value>
+                                        <Value />
                                         <Style>
-                                          <FontFamily>Calibri</FontFamily>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>9pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                           <Format>#,0.00;(#,0.00);'-'</Format>
                                         </Style>
@@ -4018,8 +4515,8 @@
                               <TextRun>
                                 <Value>Total Unearned Pawns Interest Revenue After Adjustment :</Value>
                                 <Style>
-                                  <FontFamily>Calibri</FontFamily>
-                                  <FontSize>11pt</FontSize>
+                                  <FontFamily>Century Gothic</FontFamily>
+                                  <FontSize>9pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -4035,7 +4532,7 @@
                             <Color>LightGrey</Color>
                             <Style>Solid</Style>
                           </Border>
-                          <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                          <BackgroundColor>#e2be7d</BackgroundColor>
                           <PaddingLeft>2pt</PaddingLeft>
                           <PaddingRight>2pt</PaddingRight>
                           <PaddingTop>2pt</PaddingTop>
@@ -4058,8 +4555,8 @@
                                   <TextRun>
                                     <Value>=First(Fields!subTotal.Value)</Value>
                                     <Style>
-                                      <FontFamily>Calibri</FontFamily>
-                                      <FontSize>11pt</FontSize>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>9pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                       <Format>#,0.00;(#,0.00);'-'</Format>
                                     </Style>
@@ -4079,7 +4576,7 @@
                               <LeftBorder>
                                 <Style>None</Style>
                               </LeftBorder>
-                              <BackgroundColor>PaleGoldenrod</BackgroundColor>
+                              <BackgroundColor>#e2be7d</BackgroundColor>
                               <PaddingLeft>2pt</PaddingLeft>
                               <PaddingRight>2pt</PaddingRight>
                               <PaddingTop>2pt</PaddingTop>
@@ -4101,7 +4598,7 @@
             <Top>2.91698in</Top>
             <Left>0.15167in</Left>
             <Height>1.25in</Height>
-            <Width>15.29983in</Width>
+            <Width>16.29983in</Width>
             <ZIndex>15</ZIndex>
             <Style>
               <Border>
@@ -4118,9 +4615,8 @@
                   <TextRun>
                     <Value>Prepared by:</Value>
                     <Style>
-                      <FontFamily>Calibri</FontFamily>
+                      <FontFamily>Century Gothic</FontFamily>
                       <FontSize>9pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -4128,8 +4624,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>5.75465in</Top>
-            <Left>6.67395in</Left>
+            <Top>5.56021in</Top>
+            <Left>0.71353in</Left>
             <Height>0.25in</Height>
             <Width>1.91792in</Width>
             <ZIndex>16</ZIndex>
@@ -4143,8 +4639,8 @@
             </Style>
           </Textbox>
           <Line Name="Line4">
-            <Top>5.69909in</Top>
-            <Left>6.68437in</Left>
+            <Top>5.50465in</Top>
+            <Left>0.72395in</Left>
             <Height>0in</Height>
             <Width>1.9075in</Width>
             <ZIndex>17</ZIndex>
@@ -4155,10 +4651,10 @@
             </Style>
           </Line>
         </ReportItems>
-        <Height>6.42132in</Height>
+        <Height>6.14632in</Height>
         <Style />
       </Body>
-      <Width>15.60254in</Width>
+      <Width>16.4515in</Width>
       <Page>
         <InteractiveHeight>0in</InteractiveHeight>
         <InteractiveWidth>8.5in</InteractiveWidth>

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Report.Operation {
-    
-    
-    public partial class Customer {
-        
+namespace Report.Operation
+{
+
+
+    public partial class AllSourceOfFundAccountList
+    {
+
         /// <summary>
         /// ddBranchName control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Report.Operation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddBranchName;
-        
+
         /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Report.Operation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
+
         /// <summary>
         /// btnView control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Report.Operation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnView;
-        
+
         /// <summary>
         /// ReportViewer1 control.
         /// </summary>
