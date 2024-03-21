@@ -327,7 +327,9 @@ namespace Report.Dataset {
             
             private global::System.Data.DataColumn columnlob_name;
             
-            private global::System.Data.DataColumn columnDataColumn1;
+            private global::System.Data.DataColumn columnoutstanding_interest;
+            
+            private global::System.Data.DataColumn columnaccrual_interest_income;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -556,9 +558,17 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn DataColumn1Column {
+            public global::System.Data.DataColumn outstanding_interestColumn {
                 get {
-                    return this.columnDataColumn1;
+                    return this.columnoutstanding_interest;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn accrual_interest_incomeColumn {
+                get {
+                    return this.columnaccrual_interest_income;
                 }
             }
             
@@ -624,7 +634,8 @@ namespace Report.Dataset {
                         string cycle_num, 
                         string first_disbursement_date, 
                         string lob_name, 
-                        string DataColumn1) {
+                        string outstanding_interest, 
+                        string accrual_interest_income) {
                 PawnListDetailDSRow rowPawnListDetailDSRow = ((PawnListDetailDSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         customer_no,
@@ -651,7 +662,8 @@ namespace Report.Dataset {
                         cycle_num,
                         first_disbursement_date,
                         lob_name,
-                        DataColumn1};
+                        outstanding_interest,
+                        accrual_interest_income};
                 rowPawnListDetailDSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowPawnListDetailDSRow);
                 return rowPawnListDetailDSRow;
@@ -698,7 +710,8 @@ namespace Report.Dataset {
                 this.columncycle_num = base.Columns["cycle_num"];
                 this.columnfirst_disbursement_date = base.Columns["first_disbursement_date"];
                 this.columnlob_name = base.Columns["lob_name"];
-                this.columnDataColumn1 = base.Columns["DataColumn1"];
+                this.columnoutstanding_interest = base.Columns["outstanding_interest"];
+                this.columnaccrual_interest_income = base.Columns["accrual_interest_income"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -752,8 +765,10 @@ namespace Report.Dataset {
                 base.Columns.Add(this.columnfirst_disbursement_date);
                 this.columnlob_name = new global::System.Data.DataColumn("lob_name", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnlob_name);
-                this.columnDataColumn1 = new global::System.Data.DataColumn("DataColumn1", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDataColumn1);
+                this.columnoutstanding_interest = new global::System.Data.DataColumn("outstanding_interest", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnoutstanding_interest);
+                this.columnaccrual_interest_income = new global::System.Data.DataColumn("accrual_interest_income", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnaccrual_interest_income);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1282,17 +1297,35 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string DataColumn1 {
+            public string outstanding_interest {
                 get {
                     try {
-                        return ((string)(this[this.tablePawnListDetailDS.DataColumn1Column]));
+                        return ((string)(this[this.tablePawnListDetailDS.outstanding_interestColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'DataColumn1\' in table \'PawnListDetailDS\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'outstanding_interest\' in table \'PawnListDetailDS\' is DBNull" +
+                                ".", e);
                     }
                 }
                 set {
-                    this[this.tablePawnListDetailDS.DataColumn1Column] = value;
+                    this[this.tablePawnListDetailDS.outstanding_interestColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string accrual_interest_income {
+                get {
+                    try {
+                        return ((string)(this[this.tablePawnListDetailDS.accrual_interest_incomeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'accrual_interest_income\' in table \'PawnListDetailDS\' is DBN" +
+                                "ull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePawnListDetailDS.accrual_interest_incomeColumn] = value;
                 }
             }
             
@@ -1586,14 +1619,26 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsDataColumn1Null() {
-                return this.IsNull(this.tablePawnListDetailDS.DataColumn1Column);
+            public bool Isoutstanding_interestNull() {
+                return this.IsNull(this.tablePawnListDetailDS.outstanding_interestColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetDataColumn1Null() {
-                this[this.tablePawnListDetailDS.DataColumn1Column] = global::System.Convert.DBNull;
+            public void Setoutstanding_interestNull() {
+                this[this.tablePawnListDetailDS.outstanding_interestColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isaccrual_interest_incomeNull() {
+                return this.IsNull(this.tablePawnListDetailDS.accrual_interest_incomeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setaccrual_interest_incomeNull() {
+                this[this.tablePawnListDetailDS.accrual_interest_incomeColumn] = global::System.Convert.DBNull;
             }
         }
         

@@ -300,6 +300,17 @@
     <Content Include="Dataset\AllSourceOfFundAccountList.xsc">
       <DependentUpon>AllSourceOfFundAccountList.xsd</DependentUpon>
     </Content>
+    <Content Include="Dataset\AllContractList.xsc">
+      <DependentUpon>AllContractList.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\AllContractList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllContractList1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\AllContractList.xss">
+      <DependentUpon>AllContractList.xsd</DependentUpon>
+    </Content>
     <None Include="Dataset\AllSourceOfFundAccountList.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
@@ -1090,7 +1101,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccrualInterest.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Dataset\AllContractList.Designer.cs">
+    <Compile Include="Dataset\AllContractList1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AllContractList.xsd</DependentUpon>
