@@ -78,7 +78,7 @@ namespace Report.Accounting
                 " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side, " +
                 " case when cus.customer_name is null and jou.journal_name is null and ldr.lender_name is not null then ldr.lender_name" +
                 " when cus.customer_name is not null and jou.journal_name is null and ldr.lender_name is null then cus.customer_name" +
-                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else '' end name " +
+                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else fa.vendor_name end name " +
                 " FROM acc_transaction act " +
                 " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
                 " LEFT JOIN acc_account_class aac ON coa.acc_class_id = aac.id " +
@@ -93,6 +93,9 @@ namespace Report.Accounting
                 " LEFT JOIN lender ldr ON sof.lender_id = ldr.id " +
                 " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
                 " LEFT JOIN system_date sd ON act.system_date_id = sd.id " +
+                " LEFT JOIN (" +
+                "   select fa.id,fa.fa_number,vdr.vendor_name from acc_fix_asset fa inner join acc_vendor vdr on vdr.id = fa.vendor_id" +
+                " ) fa ON fa.id = act.fix_asset_id " +
                 " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND act.trx_status IN(1, 2) " +
                 " AND act.gl_code = '" + txtGLCode.Text.Trim() + "' ORDER BY entry_no; ";
             }
@@ -109,7 +112,7 @@ namespace Report.Accounting
                 " date(sd.system_date) as sys_date,jou.journal_desc,usr.username,aac.id AS class_type,avd.vendor_name,cus.customer_name,act.balance_side, " +
                 " case when cus.customer_name is null and jou.journal_name is null and ldr.lender_name is not null then ldr.lender_name" +
                 " when cus.customer_name is not null and jou.journal_name is null and ldr.lender_name is null then cus.customer_name" +
-                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else '' end name " +
+                " when cus.customer_name is null and jou.journal_name is not null and ldr.lender_name is null then jou.journal_name  else fa.vendor_name end name " +
                 " FROM acc_transaction act " +
                 " LEFT JOIN acc_chat_of_account coa ON act.gl_id = coa.id " +
                 " LEFT JOIN acc_account_class aac ON coa.acc_class_id = aac.id " +
@@ -124,6 +127,9 @@ namespace Report.Accounting
                 " LEFT JOIN lender ldr ON sof.lender_id = ldr.id " +
                 " LEFT JOIN `user` usr ON jou.created_by_id = usr.id " +
                 " LEFT JOIN system_date sd ON act.system_date_id = sd.id " +
+                " LEFT JOIN (" +
+                "   select fa.id,fa.fa_number,vdr.vendor_name from acc_fix_asset fa inner join acc_vendor vdr on vdr.id = fa.vendor_id" +
+                " ) fa ON fa.id = act.fix_asset_id " +
                 " WHERE DATE(act.sys_date) BETWEEN DATE('" + fromDate + "') AND DATE('" + toDate + "') AND jou.trnx_status = 1 AND act.branch_id = " + ddBranchName.SelectedItem.Value + " AND act.trx_status IN(1, 2) " +
                 " AND act.gl_code = '" + txtGLCode.Text.Trim() + "' ORDER BY entry_no; ";
             }
