@@ -2919,7 +2919,7 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Pawn Date</Value>
+                                <Value>Start Date</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
                                   <FontSize>9pt</FontSize>
@@ -2961,7 +2961,7 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Expired Date</Value>
+                                <Value>Due Date</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
                                   <FontSize>9pt</FontSize>
