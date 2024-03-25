@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AccountReceivableAgingReport" targetNamespace="http://tempuri.org/AccountReceivableAgingReport.xsd" xmlns:mstns="http://tempuri.org/AccountReceivableAgingReport.xsd" xmlns="http://tempuri.org/AccountReceivableAgingReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AccountReceivableAgingReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AccountReceivableAgingReport" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AccountReceivableAgingReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AccountReceivableAgingReportDS" msprop:Generator_RowClassName="AccountReceivableAgingReportDSRow" msprop:Generator_RowEvHandlerName="AccountReceivableAgingReportDSRowChangeEventHandler" msprop:Generator_RowDeletedName="AccountReceivableAgingReportDSRowDeleted" msprop:Generator_RowDeletingName="AccountReceivableAgingReportDSRowDeleting" msprop:Generator_RowEvArgName="AccountReceivableAgingReportDSRowChangeEvent" msprop:Generator_TablePropName="AccountReceivableAgingReportDS" msprop:Generator_RowChangedName="AccountReceivableAgingReportDSRowChanged" msprop:Generator_UserTableName="AccountReceivableAgingReportDS" msprop:Generator_RowChangingName="AccountReceivableAgingReportDSRowChanging" msprop:Generator_TableClassName="AccountReceivableAgingReportDSDataTable" msprop:Generator_TableVarName="tableAccountReceivableAgingReportDS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer_name" msprop:Generator_UserColumnName="customer_name" msprop:Generator_ColumnPropNameInTable="customer_nameColumn" msprop:Generator_ColumnPropNameInRow="customer_name" msprop:Generator_ColumnVarNameInTable="columncustomer_name" type="xs:string" minOccurs="0" />
+              <xs:element name="current_day" msprop:Generator_UserColumnName="current_day" msprop:Generator_ColumnPropNameInTable="current_dayColumn" msprop:Generator_ColumnPropNameInRow="current_day" msprop:Generator_ColumnVarNameInTable="columncurrent_day" type="xs:string" minOccurs="0" />
+              <xs:element name="days_late1to30" msprop:Generator_UserColumnName="days_late1to30" msprop:Generator_ColumnPropNameInTable="days_late1to30Column" msprop:Generator_ColumnPropNameInRow="days_late1to30" msprop:Generator_ColumnVarNameInTable="columndays_late1to30" type="xs:string" minOccurs="0" />
+              <xs:element name="days_late31to60" msprop:Generator_UserColumnName="days_late31to60" msprop:Generator_ColumnPropNameInTable="days_late31to60Column" msprop:Generator_ColumnPropNameInRow="days_late31to60" msprop:Generator_ColumnVarNameInTable="columndays_late31to60" type="xs:string" minOccurs="0" />
+              <xs:element name="days_late61to90" msprop:Generator_UserColumnName="days_late61to90" msprop:Generator_ColumnPropNameInTable="days_late61to90Column" msprop:Generator_ColumnPropNameInRow="days_late61to90" msprop:Generator_ColumnVarNameInTable="columndays_late61to90" type="xs:string" minOccurs="0" />
+              <xs:element name="days_late91" msprop:Generator_UserColumnName="days_late91" msprop:Generator_ColumnPropNameInTable="days_late91Column" msprop:Generator_ColumnPropNameInRow="days_late91" msprop:Generator_ColumnVarNameInTable="columndays_late91" type="xs:string" minOccurs="0" />
+              <xs:element name="currency_code" msprop:Generator_ColumnPropNameInRow="currency_code" msprop:Generator_ColumnPropNameInTable="currency_codeColumn" msprop:Generator_ColumnVarNameInTable="columncurrency_code" msprop:Generator_UserColumnName="currency_code" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_UserColumnName="total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
