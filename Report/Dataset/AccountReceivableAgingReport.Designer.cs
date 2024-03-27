@@ -281,7 +281,7 @@ namespace Report.Dataset {
             
             private global::System.Data.DataColumn columncustomer_name;
             
-            private global::System.Data.DataColumn columncurrent_day;
+            private global::System.Data.DataColumn columncurrent;
             
             private global::System.Data.DataColumn columndays_late1to30;
             
@@ -296,6 +296,8 @@ namespace Report.Dataset {
             private global::System.Data.DataColumn columnid;
             
             private global::System.Data.DataColumn columntotal;
+            
+            private global::System.Data.DataColumn columncontract_no;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -340,9 +342,9 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn current_dayColumn {
+            public global::System.Data.DataColumn currentColumn {
                 get {
-                    return this.columncurrent_day;
+                    return this.columncurrent;
                 }
             }
             
@@ -404,6 +406,14 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn contract_noColumn {
+                get {
+                    return this.columncontract_no;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -439,18 +449,19 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public AccountReceivableAgingReportDSRow AddAccountReceivableAgingReportDSRow(string customer_name, string current_day, string days_late1to30, string days_late31to60, string days_late61to90, string days_late91, string currency_code, string id, string total) {
+            public AccountReceivableAgingReportDSRow AddAccountReceivableAgingReportDSRow(string customer_name, string current, string days_late1to30, string days_late31to60, string days_late61to90, string days_late91, string currency_code, string id, string total, string contract_no) {
                 AccountReceivableAgingReportDSRow rowAccountReceivableAgingReportDSRow = ((AccountReceivableAgingReportDSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         customer_name,
-                        current_day,
+                        current,
                         days_late1to30,
                         days_late31to60,
                         days_late61to90,
                         days_late91,
                         currency_code,
                         id,
-                        total};
+                        total,
+                        contract_no};
                 rowAccountReceivableAgingReportDSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowAccountReceivableAgingReportDSRow);
                 return rowAccountReceivableAgingReportDSRow;
@@ -474,7 +485,7 @@ namespace Report.Dataset {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
                 this.columncustomer_name = base.Columns["customer_name"];
-                this.columncurrent_day = base.Columns["current_day"];
+                this.columncurrent = base.Columns["current"];
                 this.columndays_late1to30 = base.Columns["days_late1to30"];
                 this.columndays_late31to60 = base.Columns["days_late31to60"];
                 this.columndays_late61to90 = base.Columns["days_late61to90"];
@@ -482,6 +493,7 @@ namespace Report.Dataset {
                 this.columncurrency_code = base.Columns["currency_code"];
                 this.columnid = base.Columns["id"];
                 this.columntotal = base.Columns["total"];
+                this.columncontract_no = base.Columns["contract_no"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -489,8 +501,8 @@ namespace Report.Dataset {
             private void InitClass() {
                 this.columncustomer_name = new global::System.Data.DataColumn("customer_name", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncustomer_name);
-                this.columncurrent_day = new global::System.Data.DataColumn("current_day", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columncurrent_day);
+                this.columncurrent = new global::System.Data.DataColumn("current", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columncurrent);
                 this.columndays_late1to30 = new global::System.Data.DataColumn("days_late1to30", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndays_late1to30);
                 this.columndays_late31to60 = new global::System.Data.DataColumn("days_late31to60", typeof(string), null, global::System.Data.MappingType.Element);
@@ -505,6 +517,8 @@ namespace Report.Dataset {
                 base.Columns.Add(this.columnid);
                 this.columntotal = new global::System.Data.DataColumn("total", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columntotal);
+                this.columncontract_no = new global::System.Data.DataColumn("contract_no", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columncontract_no);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -664,18 +678,18 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string current_day {
+            public string current {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountReceivableAgingReportDS.current_dayColumn]));
+                        return ((string)(this[this.tableAccountReceivableAgingReportDS.currentColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'current_day\' in table \'AccountReceivableAgingReportDS\' is D" +
-                                "BNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'current\' in table \'AccountReceivableAgingReportDS\' is DBNul" +
+                                "l.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountReceivableAgingReportDS.current_dayColumn] = value;
+                    this[this.tableAccountReceivableAgingReportDS.currentColumn] = value;
                 }
             }
             
@@ -799,6 +813,23 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string contract_no {
+                get {
+                    try {
+                        return ((string)(this[this.tableAccountReceivableAgingReportDS.contract_noColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'contract_no\' in table \'AccountReceivableAgingReportDS\' is D" +
+                                "BNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableAccountReceivableAgingReportDS.contract_noColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool Iscustomer_nameNull() {
                 return this.IsNull(this.tableAccountReceivableAgingReportDS.customer_nameColumn);
             }
@@ -811,14 +842,14 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool Iscurrent_dayNull() {
-                return this.IsNull(this.tableAccountReceivableAgingReportDS.current_dayColumn);
+            public bool IscurrentNull() {
+                return this.IsNull(this.tableAccountReceivableAgingReportDS.currentColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void Setcurrent_dayNull() {
-                this[this.tableAccountReceivableAgingReportDS.current_dayColumn] = global::System.Convert.DBNull;
+            public void SetcurrentNull() {
+                this[this.tableAccountReceivableAgingReportDS.currentColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -903,6 +934,18 @@ namespace Report.Dataset {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SettotalNull() {
                 this[this.tableAccountReceivableAgingReportDS.totalColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Iscontract_noNull() {
+                return this.IsNull(this.tableAccountReceivableAgingReportDS.contract_noColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setcontract_noNull() {
+                this[this.tableAccountReceivableAgingReportDS.contract_noColumn] = global::System.Convert.DBNull;
             }
         }
         
