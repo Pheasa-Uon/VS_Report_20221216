@@ -192,6 +192,7 @@
     <Content Include="Images\midas.png" />
     <Content Include="Images\profile.png" />
     <Content Include="Images\ui-icons_444444_256x240.png" />
+    <Content Include="Operation\AccountReceivableAgingReport.aspx" />
     <Content Include="Operation\AllContractList.aspx" />
     <Content Include="Operation\AllSourceOfFundAccountList.aspx" />
     <Content Include="Operation\BranchProductivity.aspx" />
@@ -636,7 +637,6 @@
     <Content Include="Operation\CashCollectionConsolidate.aspx" />
     <Content Include="Operation\CashCollectionOnDate.aspx" />
     <Content Include="Operation\ContractOutstandingByDate.aspx" />
-    <Content Include="Operation\AccountReceivableAgingReport.aspx" />
     <Content Include="Operation\PawnListDetail.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1343,6 +1343,13 @@
       <DependentUpon>BalanceSheet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Models\UserResponse.cs" />
+    <Compile Include="Operation\AccountReceivableAgingReport.aspx.cs">
+      <DependentUpon>AccountReceivableAgingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operation\AccountReceivableAgingReport.aspx.designer.cs">
+      <DependentUpon>AccountReceivableAgingReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Operation\AllContractList.aspx.cs">
       <DependentUpon>AllContractList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1417,13 +1424,6 @@
     </Compile>
     <Compile Include="Operation\ContractOutstandingByDate.aspx.designer.cs">
       <DependentUpon>ContractOutstandingByDate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Operation\AccountReceivableAgingReport.aspx.cs">
-      <DependentUpon>AccountReceivableAgingReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Operation\AccountReceivableAgingReport.aspx.designer.cs">
-      <DependentUpon>AccountReceivableAgingReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Operation\PaymentDetail.aspx.cs">
       <DependentUpon>PaymentDetail.aspx</DependentUpon>
