@@ -53,9 +53,9 @@ namespace Report.Operation
             List<Procedure> parameters = new List<Procedure>();
             parameters.Add(item: new Procedure() { field_name = "@pBranch", sql_db_type = MySqlDbType.VarChar, value_name = ddBranchName.SelectedItem.Value });
 
-            DataTable lateReportDT = db.getProcedureDataTable(ar, parameters);
+            DataTable AccountReceivableAgingReportDT = db.getProcedureDataTable(ar, parameters);
 
-            GenerateReport(lateReportDT);
+            GenerateReport(AccountReceivableAgingReportDT);
         }
     }
 }

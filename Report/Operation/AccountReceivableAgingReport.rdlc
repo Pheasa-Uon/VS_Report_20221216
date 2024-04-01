@@ -192,7 +192,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>ACCOUNTRECEIVABLEAGINGREPORT</Value>
+                    <Value>ACCOUNT RECEIVABLE AGING REPORT</Value>
                     <Style>
                       <FontFamily>Century Gothic</FontFamily>
                       <FontSize>12pt</FontSize>
@@ -207,7 +207,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>0.38889in</Top>
+            <Top>0.375in</Top>
             <Left>0.16206in</Left>
             <Height>0.25in</Height>
             <Width>6.71271in</Width>
@@ -3124,7 +3124,7 @@
                                           <Paragraph>
                                             <TextRuns>
                                               <TextRun>
-                                                <Value>Principle</Value>
+                                                <Value>Principal</Value>
                                                 <Style>
                                                   <FontFamily>Century Gothic</FontFamily>
                                                   <FontSize>9pt</FontSize>

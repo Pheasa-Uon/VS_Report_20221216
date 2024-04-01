@@ -658,6 +658,17 @@
     <Content Include="Dataset\PaymentDetail.xsc">
       <DependentUpon>PaymentDetail.xsd</DependentUpon>
     </Content>
+    <Content Include="Dataset\Payable.xsc">
+      <DependentUpon>Payable.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\Payable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Payable.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Dataset\Payable.xss">
+      <DependentUpon>Payable.xsd</DependentUpon>
+    </Content>
     <None Include="Dataset\PaymentDetail.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
@@ -810,6 +821,7 @@
     <Content Include="Operation\NewGrant.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Operation\Payable.aspx" />
     <Content Include="Operation\ProductivityConsolidateByBranch.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1272,6 +1284,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PawnListDetail.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dataset\Payable.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payable.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dataset\PaymentDetail.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1424,6 +1441,13 @@
     </Compile>
     <Compile Include="Operation\ContractOutstandingByDate.aspx.designer.cs">
       <DependentUpon>ContractOutstandingByDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Payable.aspx.cs">
+      <DependentUpon>Payable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operation\Payable.aspx.designer.cs">
+      <DependentUpon>Payable.aspx</DependentUpon>
     </Compile>
     <Compile Include="Operation\PaymentDetail.aspx.cs">
       <DependentUpon>PaymentDetail.aspx</DependentUpon>
@@ -1656,6 +1680,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Operation\AccountReceivableAgingReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Operation\Payable.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
