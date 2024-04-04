@@ -283,7 +283,7 @@ namespace Report.Dataset {
             
             private global::System.Data.DataColumn columnlender_name;
             
-            private global::System.Data.DataColumn columnlob_name;
+            private global::System.Data.DataColumn columnproduct_name;
             
             private global::System.Data.DataColumn columnoutstanding;
             
@@ -346,9 +346,9 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn lob_nameColumn {
+            public global::System.Data.DataColumn product_nameColumn {
                 get {
-                    return this.columnlob_name;
+                    return this.columnproduct_name;
                 }
             }
             
@@ -429,12 +429,12 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public PayableDSRow AddPayableDSRow(string ticket_no, string lender_name, string lob_name, string outstanding, string due_date, string principle_less, string interest_less, string total_less) {
+            public PayableDSRow AddPayableDSRow(string ticket_no, string lender_name, string product_name, string outstanding, string due_date, string principle_less, string interest_less, string total_less) {
                 PayableDSRow rowPayableDSRow = ((PayableDSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         ticket_no,
                         lender_name,
-                        lob_name,
+                        product_name,
                         outstanding,
                         due_date,
                         principle_less,
@@ -464,7 +464,7 @@ namespace Report.Dataset {
             internal void InitVars() {
                 this.columnticket_no = base.Columns["ticket_no"];
                 this.columnlender_name = base.Columns["lender_name"];
-                this.columnlob_name = base.Columns["lob_name"];
+                this.columnproduct_name = base.Columns["product_name"];
                 this.columnoutstanding = base.Columns["outstanding"];
                 this.columndue_date = base.Columns["due_date"];
                 this.columnprinciple_less = base.Columns["principle_less"];
@@ -479,8 +479,8 @@ namespace Report.Dataset {
                 base.Columns.Add(this.columnticket_no);
                 this.columnlender_name = new global::System.Data.DataColumn("lender_name", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnlender_name);
-                this.columnlob_name = new global::System.Data.DataColumn("lob_name", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnlob_name);
+                this.columnproduct_name = new global::System.Data.DataColumn("product_name", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnproduct_name);
                 this.columnoutstanding = new global::System.Data.DataColumn("outstanding", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnoutstanding);
                 this.columndue_date = new global::System.Data.DataColumn("due_date", typeof(string), null, global::System.Data.MappingType.Element);
@@ -665,17 +665,17 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string lob_name {
+            public string product_name {
                 get {
                     try {
-                        return ((string)(this[this.tablePayableDS.lob_nameColumn]));
+                        return ((string)(this[this.tablePayableDS.product_nameColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'lob_name\' in table \'PayableDS\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'product_name\' in table \'PayableDS\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablePayableDS.lob_nameColumn] = value;
+                    this[this.tablePayableDS.product_nameColumn] = value;
                 }
             }
             
@@ -785,14 +785,14 @@ namespace Report.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool Islob_nameNull() {
-                return this.IsNull(this.tablePayableDS.lob_nameColumn);
+            public bool Isproduct_nameNull() {
+                return this.IsNull(this.tablePayableDS.product_nameColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void Setlob_nameNull() {
-                this[this.tablePayableDS.lob_nameColumn] = global::System.Convert.DBNull;
+            public void Setproduct_nameNull() {
+                this[this.tablePayableDS.product_nameColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

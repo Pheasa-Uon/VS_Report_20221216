@@ -71,8 +71,8 @@ namespace Report.Operation
 
             List<Procedure> parameters = new List<Procedure>();
             parameters.Add(item: new Procedure() { field_name = "@pBranch", sql_db_type = MySqlDbType.VarChar, value_name = ddBranchName.SelectedItem.Value });
-            parameters.Add(item: new Procedure() { field_name = "@pFromDate", sql_db_type = MySqlDbType.VarChar, value_name = fromDate });
-            parameters.Add(item: new Procedure() { field_name = "@pToDate", sql_db_type = MySqlDbType.VarChar, value_name = toDate });
+            parameters.Add(item: new Procedure() { field_name = "@pFRDT", sql_db_type = MySqlDbType.VarChar, value_name = fromDate });
+            parameters.Add(item: new Procedure() { field_name = "@pTODT", sql_db_type = MySqlDbType.VarChar, value_name = toDate });
 
 
 

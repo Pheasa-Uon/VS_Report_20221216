@@ -17,7 +17,7 @@
                     </asp:RequiredFieldValidator>
                 </div>
                 <div class="col-sm-2 form-group">
-                    <label>From Date:</label>
+                    <label>FromDate:</label>
                     <asp:TextBox ID="dtpFromDate" runat="server" class="form-control input-sm datepick"></asp:TextBox>
                 </div>
                 <div class="col-sm-2 form-group">
