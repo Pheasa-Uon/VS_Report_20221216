@@ -17,6 +17,7 @@ namespace Report.Operation
     {
         private DBConnect db = new DBConnect();
         public static string systemDateStr;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
